@@ -2,8 +2,7 @@ name: Aomen
 on:
   workflow_dispatch:
   repository_dispatch:
-    types:
-      - webhook
+    types: [webhook]
   schedule:
     - cron: '1 2,4,6,8,11,13,16,22 * * *'
      

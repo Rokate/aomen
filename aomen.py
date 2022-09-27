@@ -214,6 +214,15 @@ if pic18.status_code == 200:
 else:
     print ('error')
 
+#获取招财猫四肖八码 https://49152c.com
+pic19 = requests.get(f"https://tk2.sycccf.com:4949/col/{qishu}/rv.jpg")
+if pic19.status_code == 200:
+    print ('图下19')    
+    with open('aomen/pic19.jpg', 'wb') as f:
+        f.write(pic19.content)
+else:
+    print ('error')
+
 #保存日期配置
 pz = str(qishu + "|" + day + "|" + xg + "|")
 

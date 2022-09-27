@@ -1,11 +1,10 @@
 name: Aomen
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '10 1,3,5,7,9,11,13,15,17,19,21,23 * * *'
- 
-    
+    - cron: '1 0,6,10,12,14,16,19,23 * * *'
+  watch:
+    types: [started]    
 
   
 jobs:

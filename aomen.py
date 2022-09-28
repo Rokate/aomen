@@ -22,7 +22,7 @@ else:
 
 #获取澳门挂牌玄机 https://49152c.com
 pic01 = requests.get(f"https://tk2.sycccf.com:4949/col/{qishu}/n1.jpg")
-if pic01.status_code == 200:
+if pic01.headers['Content-Type'] == 'image/jpeg':
     print ('图下01')    
     with open('aomen/pic01.jpg', 'wb') as f:
         f.write(pic01.content)
@@ -40,7 +40,7 @@ else:
 
 #获取香港挂牌玄机 https://49152c.com
 pic02 = requests.get(f"https://tk.sycccf.com:4949/col/{xg}/n1.jpg")
-if pic02.status_code == 200:
+if pic02.headers['Content-Type'] == 'image/jpeg':
     xg = str(int(xg)+1)
     print ('图下02')   
     with open('aomen/pic02.jpg', 'wb') as f:
@@ -59,7 +59,7 @@ else:
 
 #获取东成西就 https://49152c.com
 pic03 = requests.get(f"https://tk2.sycccf.com:4949/col/{qishu}/dcxj.jpg")
-if pic03.status_code == 200:
+if pic03.headers['Content-Type'] == 'image/jpeg':
     print ('图下03')    
     with open('aomen/pic03.jpg', 'wb') as f:
         f.write(pic03.content)
@@ -77,7 +77,7 @@ else:
 
 #获取石狮镇码 https://49152c.com
 pic04 = requests.get(f"https://tk2.sycccf.com:4949/col/{qishu}/sszm.jpg")
-if pic04.status_code == 200:
+if pic04.headers['Content-Type'] == 'image/jpeg':
     print ('图下04')    
     with open('aomen/pic04.jpg', 'wb') as f:
         f.write(pic04.content)
@@ -95,7 +95,7 @@ else:
 
 #获取绝杀五肖霸王杀五肖 https://www.353583.com/
 pic05 = requests.get(f"https://www.353583.com/tutu/faf{qishu}.jpg")
-if pic05.status_code == 200:
+if pic05.headers['Content-Type'] == 'image/jpeg':
     print ('图下05')    
     with open('aomen/pic05.jpg', 'wb') as f:
         f.write(pic05.content)
@@ -113,7 +113,7 @@ else:
 
 #获取二肖二码 https://www.353583.com/
 pic06 = requests.get(f"https://www.353583.com/tutu/fgmc{qishu}.jpg")
-if pic06.status_code == 200:
+if pic06.headers['Content-Type'] == 'image/jpeg':
     print ('图下06')    
     with open('aomen/pic06.jpg', 'wb') as f:
         f.write(pic06.content)
@@ -131,7 +131,7 @@ else:
 
 #获取六肖12码 https://www.353583.com/
 pic07 = requests.get(f"https://www.353583.com/tutu/6i12m{qishu}.jpg")
-if pic07.status_code == 200:
+if pic07.headers['Content-Type'] == 'image/jpeg':
     print ('图下07')    
     with open('aomen/pic07.jpg', 'wb') as f:
         f.write(pic07.content)
@@ -149,7 +149,7 @@ else:
 
 #获取天书三肖 https://www.353583.com/
 pic08 = requests.get(f"https://www.353583.com/tutu/gd{qishu}.jpg")
-if pic08.status_code == 200:
+if pic08.headers['Content-Type'] == 'image/jpeg':
     print ('图下08')    
     with open('aomen/pic08.jpg', 'wb') as f:
         f.write(pic08.content)
@@ -167,7 +167,7 @@ else:
 
 #获取四肖八码 https://www.353583.com/
 pic09 = requests.get(f"https://www.353583.com/tutu/lhwt{qishu}.jpg")
-if pic09.status_code == 200:
+if pic09.headers['Content-Type'] == 'image/jpeg':
     print ('图下09')    
     with open('aomen/pic09.jpg', 'wb') as f:
         f.write(pic09.content)
@@ -185,7 +185,7 @@ else:
 
 #获取四肖四码 https://www.353583.com/
 pic10 = requests.get(f"https://www.353583.com/tutu/ugyf{qishu}.jpg")
-if pic10.status_code == 200:
+if pic10.headers['Content-Type'] == 'image/jpeg':
     print ('图下10')    
     with open('aomen/pic10.jpg', 'wb') as f:
         f.write(pic10.content)
@@ -203,7 +203,7 @@ else:
 
 #获取看图找生肖 https://49629a.com/
 pic11 = requests.get(f"https://49629a.com/img/ktzsx{qishu}.jpg")
-if pic11.status_code == 200:
+if pic11.headers['Content-Type'] == 'image/jpeg':
     print ('图下11')    
     with open('aomen/pic11.jpg', 'wb') as f:
         f.write(pic11.content)
@@ -221,7 +221,7 @@ else:
 
 #获取澳门精准四肖12码 https://49629a.com/
 pic12 = requests.get(f"https://49629a.com/img/amhg{qishu}.jpg")
-if pic12.status_code == 200:
+if pic12.headers['Content-Type'] == 'image/jpeg':
     print ('图下12')    
     with open('aomen/pic12.jpg', 'wb') as f:
         f.write(pic12.content)
@@ -239,7 +239,7 @@ else:
 
 #获取西游家野 三肖中特 https://49629a.com/
 pic13 = requests.get(f"https://49629a.com/img/zbxyb{qishu}.jpg")
-if pic13.status_code == 200:
+if pic13.headers['Content-Type'] == 'image/jpeg':
     print ('图下13')    
     with open('aomen/pic13.jpg', 'wb') as f:
         f.write(pic13.content)
@@ -257,7 +257,7 @@ else:
 
 #获取澳门内幕 四肖四码 https://49629a.com/
 pic14 = requests.get(f"https://49629a.com/img/nm4x8m{qishu}.jpg")
-if pic14.status_code == 200:  
+if pic14.headers['Content-Type'] == 'image/jpeg':  
     print ('图下14')  
     with open('aomen/pic14.jpg', 'wb') as f:
         f.write(pic14.content)
@@ -275,7 +275,7 @@ else:
 
 #获取三肖六码 https://123186.com
 pic15 = requests.get(f"https://123186a.com/gsbtu/baoma{qishu}.jpg")
-if pic15.status_code == 200:
+if pic15.headers['Content-Type'] == 'image/jpeg':
     print ('图下15')    
     with open('aomen/pic15.jpg', 'wb') as f:
         f.write(pic15.content)
@@ -293,7 +293,7 @@ else:
 
 #获取皇道吉日 https://123186.com
 pic16 = requests.get(f"https://123186a.com/gsbtu/hdjr{qishu}.jpg")
-if pic16.status_code == 200:
+if pic16.headers['Content-Type'] == 'image/jpeg':
     print ('图下16')    
     with open('aomen/pic16.jpg', 'wb') as f:
         f.write(pic16.content)
@@ -327,7 +327,7 @@ headers = {
 }
 
 pic17 = requests.get("https://777.003123.me/InterPhoto.image.php"+m2[0],headers=headers)
-if pic17.status_code == 200:
+if pic17.headers['Content-Type'] == 'image/jpeg':
     print ('图下17')    
     with open('aomen/pic17.jpg', 'wb') as f:
         f.write(pic17.content)
@@ -363,7 +363,7 @@ headers = {
 
 pic18 = requests.get("https://777.003123.me/InterPhoto.image.php"+m2[0],headers=headers)
 
-if pic18.status_code == 200:
+if pic18.headers['Content-Type'] == 'image/jpeg':
     print ('图下18')
     with open('aomen/pic18.jpg', 'wb') as f:
         f.write(pic18.content)
@@ -383,7 +383,7 @@ else:
 
 #获取招财猫四肖八码 https://49152c.com
 pic19 = requests.get(f"https://tk2.sycccf.com:4949/col/{qishu}/rv.jpg")
-if pic19.status_code == 200:
+if pic19.headers['Content-Type'] == 'image/jpeg':
     print ('图下19')    
     with open('aomen/pic19.jpg', 'wb') as f:
         f.write(pic19.content)

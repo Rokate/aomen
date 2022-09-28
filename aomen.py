@@ -33,7 +33,7 @@ if pic01.headers['Content-Type'] == 'image/jpeg':
         print(f"Failed to upload. Reason: {err}")
         url01 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic01.jpg'
     else:
-        url01 = "https://i0.wp.com/telegra.ph" + r[0].get("src")
+        url01 = "https://2img.net/h/telegra.ph" + r[0].get("src")
 else:
     print ('error')
     url01 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic01.jpg'
@@ -52,7 +52,7 @@ if pic02.headers['Content-Type'] == 'image/jpeg':
         print(f"Failed to upload. Reason: {err}")
         url02 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic02.jpg'
     else:
-        url02 = "https://i0.wp.com/telegra.ph" + r[0].get("src")
+        url02 = "https://2img.net/h/telegra.ph" + r[0].get("src")
 else:
     print ('error')
     url02 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic02.jpg'
@@ -70,8 +70,7 @@ if pic03.headers['Content-Type'] == 'image/jpeg':
         print(f"Failed to upload. Reason: {err}")
         url03 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic03.jpg'
     else:
-        url03 = "https://i0.wp.com/telegra.ph" + r[0].get("src")
-else:
+        url03 = "https://2img.net/h/telegra.ph" + r[0].get("src")
     print ('error')
     url03 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic03.jpg'
 
@@ -88,7 +87,7 @@ if pic04.headers['Content-Type'] == 'image/jpeg':
         print(f"Failed to upload. Reason: {err}")
         url04 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic04.jpg'
     else:
-        url04 = "https://i0.wp.com/telegra.ph" + r[0].get("src")
+        url04 = "https://2img.net/h/telegra.ph" + r[0].get("src")
 else:
     print ('error')
     url04 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic04.jpg'
@@ -106,7 +105,7 @@ if pic05.headers['Content-Type'] == 'image/jpeg':
         print(f"Failed to upload. Reason: {err}")
         url05 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic05.jpg'
     else:    
-        url05 = "https://i0.wp.com/telegra.ph" + r[0].get("src")
+        url05 = "https://2img.net/h/telegra.ph" + r[0].get("src")
 else:
     print ('error')
     url05 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic05.jpg'
@@ -124,7 +123,7 @@ if pic06.headers['Content-Type'] == 'image/jpeg':
         print(f"Failed to upload. Reason: {err}")
         url06 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic06.jpg'
     else:
-        url06 = "https://i0.wp.com/telegra.ph" + r[0].get("src")
+        url06 = "https://2img.net/h/telegra.ph" + r[0].get("src")
 else:
     print ('error')
     url06 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic06.jpg'
@@ -142,7 +141,7 @@ if pic07.headers['Content-Type'] == 'image/jpeg':
         print(f"Failed to upload. Reason: {err}")
         url07 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic07.jpg'
     else:
-        url07 = "https://i1.wp.com/telegra.ph" + r[0].get("src")
+        url07 = "https://2img.net/h/telegra.ph" + r[0].get("src")
 else:
     print ('error')
     url07 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic07.jpg'
@@ -160,7 +159,7 @@ if pic08.headers['Content-Type'] == 'image/jpeg':
         print(f"Failed to upload. Reason: {err}")
         url08 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic08.jpg'
     else:
-        url08 = "https://i1.wp.com/telegra.ph" + r[0].get("src")
+        url08 = "https://2img.net/h/telegra.ph" + r[0].get("src")
 else:
     print ('error')
     url08 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic08.jpg' 
@@ -178,7 +177,7 @@ if pic09.headers['Content-Type'] == 'image/jpeg':
         print(f"Failed to upload. Reason: {err}")
         url09 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic09.jpg' 
     else:
-        url09 = "https://i1.wp.com/telegra.ph" + r[0].get("src")
+        url09 = "https://2img.net/h/telegra.ph" + r[0].get("src")
 else:
     print ('error')
     url09 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic09.jpg' 
@@ -196,7 +195,7 @@ if pic10.headers['Content-Type'] == 'image/jpeg':
         print(f"Failed to upload. Reason: {err}")
         url10 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic10.jpg'
     else:
-        url10 = "https://i1.wp.com/telegra.ph" + r[0].get("src")
+        url10 = "https://2img.net/h/telegra.ph" + r[0].get("src")
 else:
     print ('error')
     url10 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic10.jpg'
@@ -214,7 +213,7 @@ if pic11.headers['Content-Type'] == 'image/jpeg':
         print(f"Failed to upload. Reason: {err}")
         url11 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic11.jpg'
     else:
-        url11 = "https://i1.wp.com/telegra.ph" + r[0].get("src")
+        url11 = "https://2img.net/h/telegra.ph" + r[0].get("src")
 else:
     print ('error')
     url11 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic11.jpg'
@@ -232,7 +231,7 @@ if pic12.headers['Content-Type'] == 'image/jpeg':
         print(f"Failed to upload. Reason: {err}")
         url12 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic12.jpg'
     else:
-        url12 = "https://i1.wp.com/telegra.ph" + r[0].get("src")
+        url12 = "https://2img.net/h/telegra.ph" + r[0].get("src")
 else:
     print ('error')
     url12 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic12.jpg'
@@ -250,7 +249,7 @@ if pic13.headers['Content-Type'] == 'image/jpeg':
         print(f"Failed to upload. Reason: {err}")
         url13 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic13.jpg'
     else:
-        url13 = "https://i2.wp.com/telegra.ph" + r[0].get("src")
+        url13 = "https://2img.net/h/telegra.ph" + r[0].get("src")
 else:
     print ('error')
     url13 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic13.jpg'
@@ -268,7 +267,7 @@ if pic14.headers['Content-Type'] == 'image/jpeg':
         print(f"Failed to upload. Reason: {err}")
         url14 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic14.jpg'
     else:
-        url14 = "https://i2.wp.com/telegra.ph" + r[0].get("src")
+        url14 = "https://2img.net/h/telegra.ph" + r[0].get("src")
 else:
     print ('error')
     url14 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic14.jpg'
@@ -286,7 +285,7 @@ if pic15.headers['Content-Type'] == 'image/jpeg':
         print(f"Failed to upload. Reason: {err}")
         url15 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic15.jpg'
     else:
-        url15 = "https://i2.wp.com/telegra.ph" + r[0].get("src")
+        url15 = "https://2img.net/h/telegra.ph" + r[0].get("src")
 else:
     print ('error')
     url15 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic15.jpg'
@@ -304,7 +303,7 @@ if pic16.headers['Content-Type'] == 'image/jpeg':
         print(f"Failed to upload. Reason: {err}")
         url16 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic16.jpg'
     else:
-        url16 = "https://i2.wp.com/telegra.ph" + r[0].get("src")
+        url16 = "https://2img.net/h/telegra.ph" + r[0].get("src")
 else:
     print ('error')
     url16 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic16.jpg'
@@ -338,7 +337,7 @@ if pic17.headers['Content-Type'] == 'image/jpeg':
         print(f"Failed to upload. Reason: {err}")
         url17 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic17.jpg'
     else:
-        url17 = "https://i2.wp.com/telegra.ph" + r[0].get("src")
+        url17 = "https://2img.net/h/telegra.ph" + r[0].get("src")
 else:
     print ('error')
     url17 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic17.jpg'
@@ -374,7 +373,7 @@ if pic18.headers['Content-Type'] == 'image/jpeg':
         print(f"Failed to upload. Reason: {err}")
         url18 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic18.jpg'
     else:
-        url18 = "https://i2.wp.com/telegra.ph" + r[0].get("src")
+        url18 = "https://2img.net/h/telegra.ph" + r[0].get("src")
 else:
     print ('error')
     url18 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic18.jpg'
@@ -394,7 +393,7 @@ if pic19.headers['Content-Type'] == 'image/jpeg':
         print(f"Failed to upload. Reason: {err}")
         url19 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic19.jpg'
     else:
-        url19 = "https://i0.wp.com/telegra.ph" + r[0].get("src")
+        url19 = "https://2img.net/h/telegra.ph" + r[0].get("src")
 else:
     print ('error')
     url19 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic19.jpg'

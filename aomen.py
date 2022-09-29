@@ -31,12 +31,12 @@ if pic01.headers['Content-Type'] == 'image/jpeg':
     err = r[0].get("error")
     if err:
         print(f"Failed to upload. Reason: {err}")
-        url01 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic01.jpg'
+        url01 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic01.jpg'
     else:
         url01 = "https://2img.net/h/telegra.ph" + r[0].get("src")
 else:
     print ('error')
-    url01 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic01.jpg'
+    url01 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic01.jpg'
 
 #获取香港挂牌玄机 https://49152c.com
 pic02 = requests.get(f"https://tk.sycccf.com:4949/col/{xg}/n1.jpg")
@@ -50,12 +50,12 @@ if pic02.headers['Content-Type'] == 'image/jpeg':
     err = r[0].get("error")
     if err:
         print(f"Failed to upload. Reason: {err}")
-        url02 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic02.jpg'
+        url02 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic02.jpg'
     else:
         url02 = "https://2img.net/h/telegra.ph" + r[0].get("src")
 else:
     print ('error')
-    url02 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic02.jpg'
+    url02 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic02.jpg'
 
 #获取东成西就 https://49152c.com
 pic03 = requests.get(f"https://tk2.sycccf.com:4949/col/{qishu}/dcxj.jpg")
@@ -68,12 +68,12 @@ if pic03.headers['Content-Type'] == 'image/jpeg':
     err = r[0].get("error")
     if err:
         print(f"Failed to upload. Reason: {err}")
-        url03 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic03.jpg'
+        url03 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic03.jpg'
     else:
         url03 = "https://2img.net/h/telegra.ph" + r[0].get("src")
 else:
     print ('error')
-    url03 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic03.jpg'
+    url03 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic03.jpg'
 
 #获取石狮镇码 https://49152c.com
 pic04 = requests.get(f"https://tk2.sycccf.com:4949/col/{qishu}/sszm.jpg")
@@ -86,12 +86,12 @@ if pic04.headers['Content-Type'] == 'image/jpeg':
     err = r[0].get("error")
     if err:
         print(f"Failed to upload. Reason: {err}")
-        url04 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic04.jpg'
+        url04 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic04.jpg'
     else:
         url04 = "https://2img.net/h/telegra.ph" + r[0].get("src")
 else:
     print ('error')
-    url04 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic04.jpg'
+    url04 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic04.jpg'
 
 #获取绝杀五肖霸王杀五肖 https://www.353583.com/
 pic05 = requests.get(f"https://www.353583.com/tutu/faf{qishu}.jpg")
@@ -104,12 +104,12 @@ if pic05.headers['Content-Type'] == 'image/jpeg':
     err = r[0].get("error")
     if err:
         print(f"Failed to upload. Reason: {err}")
-        url05 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic05.jpg'
+        url05 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic05.jpg'
     else:    
         url05 = "https://2img.net/h/telegra.ph" + r[0].get("src")
 else:
     print ('error')
-    url05 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic05.jpg'
+    url05 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic05.jpg'
 
 #获取二肖二码 https://www.353583.com/
 pic06 = requests.get(f"https://www.353583.com/tutu/fgmc{qishu}.jpg")
@@ -122,12 +122,12 @@ if pic06.headers['Content-Type'] == 'image/jpeg':
     err = r[0].get("error")
     if err:
         print(f"Failed to upload. Reason: {err}")
-        url06 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic06.jpg'
+        url06 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic06.jpg'
     else:
         url06 = "https://2img.net/h/telegra.ph" + r[0].get("src")
 else:
     print ('error')
-    url06 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic06.jpg'
+    url06 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic06.jpg'
 
 #获取六肖12码 https://www.353583.com/
 pic07 = requests.get(f"https://www.353583.com/tutu/6i12m{qishu}.jpg")
@@ -140,12 +140,12 @@ if pic07.headers['Content-Type'] == 'image/jpeg':
     err = r[0].get("error")
     if err:
         print(f"Failed to upload. Reason: {err}")
-        url07 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic07.jpg'
+        url07 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic07.jpg'
     else:
         url07 = "https://2img.net/h/telegra.ph" + r[0].get("src")
 else:
     print ('error')
-    url07 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic07.jpg'
+    url07 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic07.jpg'
 
 #获取天书三肖 https://www.353583.com/
 pic08 = requests.get(f"https://www.353583.com/tutu/gd{qishu}.jpg")
@@ -158,12 +158,12 @@ if pic08.headers['Content-Type'] == 'image/jpeg':
     err = r[0].get("error")
     if err:
         print(f"Failed to upload. Reason: {err}")
-        url08 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic08.jpg'
+        url08 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic08.jpg'
     else:
         url08 = "https://2img.net/h/telegra.ph" + r[0].get("src")
 else:
     print ('error')
-    url08 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic08.jpg' 
+    url08 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic08.jpg' 
 
 #获取四肖八码 https://www.353583.com/
 pic09 = requests.get(f"https://www.353583.com/tutu/lhwt{qishu}.jpg")
@@ -176,12 +176,12 @@ if pic09.headers['Content-Type'] == 'image/jpeg':
     err = r[0].get("error")
     if err:
         print(f"Failed to upload. Reason: {err}")
-        url09 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic09.jpg' 
+        url09 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic09.jpg' 
     else:
         url09 = "https://2img.net/h/telegra.ph" + r[0].get("src")
 else:
     print ('error')
-    url09 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic09.jpg' 
+    url09 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic09.jpg' 
 
 #获取四肖四码 https://www.353583.com/
 pic10 = requests.get(f"https://www.353583.com/tutu/ugyf{qishu}.jpg")
@@ -194,12 +194,12 @@ if pic10.headers['Content-Type'] == 'image/jpeg':
     err = r[0].get("error")
     if err:
         print(f"Failed to upload. Reason: {err}")
-        url10 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic10.jpg'
+        url10 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic10.jpg'
     else:
         url10 = "https://2img.net/h/telegra.ph" + r[0].get("src")
 else:
     print ('error')
-    url10 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic10.jpg'
+    url10 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic10.jpg'
 
 #获取看图找生肖 https://49629a.com/
 pic11 = requests.get(f"https://49629a.com/img/ktzsx{qishu}.jpg")
@@ -212,12 +212,12 @@ if pic11.headers['Content-Type'] == 'image/jpeg':
     err = r[0].get("error")
     if err:
         print(f"Failed to upload. Reason: {err}")
-        url11 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic11.jpg'
+        url11 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic11.jpg'
     else:
         url11 = "https://2img.net/h/telegra.ph" + r[0].get("src")
 else:
     print ('error')
-    url11 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic11.jpg'
+    url11 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic11.jpg'
 
 #获取澳门精准四肖12码 https://49629a.com/
 pic12 = requests.get(f"https://49629a.com/img/amhg{qishu}.jpg")
@@ -230,12 +230,12 @@ if pic12.headers['Content-Type'] == 'image/jpeg':
     err = r[0].get("error")
     if err:
         print(f"Failed to upload. Reason: {err}")
-        url12 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic12.jpg'
+        url12 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic12.jpg'
     else:
         url12 = "https://2img.net/h/telegra.ph" + r[0].get("src")
 else:
     print ('error')
-    url12 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic12.jpg'
+    url12 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic12.jpg'
 
 #获取西游家野 三肖中特 https://49629a.com/
 pic13 = requests.get(f"https://49629a.com/img/zbxyb{qishu}.jpg")
@@ -248,12 +248,12 @@ if pic13.headers['Content-Type'] == 'image/jpeg':
     err = r[0].get("error")
     if err:
         print(f"Failed to upload. Reason: {err}")
-        url13 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic13.jpg'
+        url13 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic13.jpg'
     else:
         url13 = "https://2img.net/h/telegra.ph" + r[0].get("src")
 else:
     print ('error')
-    url13 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic13.jpg'
+    url13 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic13.jpg'
 
 #获取澳门内幕 四肖四码 https://49629a.com/
 pic14 = requests.get(f"https://49629a.com/img/nm4x8m{qishu}.jpg")
@@ -266,12 +266,12 @@ if pic14.headers['Content-Type'] == 'image/jpeg':
     err = r[0].get("error")
     if err:
         print(f"Failed to upload. Reason: {err}")
-        url14 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic14.jpg'
+        url14 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic14.jpg'
     else:
         url14 = "https://2img.net/h/telegra.ph" + r[0].get("src")
 else:
     print ('error')
-    url14 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic14.jpg'
+    url14 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic14.jpg'
 
 #获取三肖六码 https://123186.com
 pic15 = requests.get(f"https://123186a.com/gsbtu/baoma{qishu}.jpg")
@@ -284,12 +284,12 @@ if pic15.headers['Content-Type'] == 'image/jpeg':
     err = r[0].get("error")
     if err:
         print(f"Failed to upload. Reason: {err}")
-        url15 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic15.jpg'
+        url15 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic15.jpg'
     else:
         url15 = "https://2img.net/h/telegra.ph" + r[0].get("src")
 else:
     print ('error')
-    url15 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic15.jpg'
+    url15 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic15.jpg'
 
 #获取皇道吉日 https://123186.com
 pic16 = requests.get(f"https://123186a.com/gsbtu/hdjr{qishu}.jpg")
@@ -302,12 +302,12 @@ if pic16.headers['Content-Type'] == 'image/jpeg':
     err = r[0].get("error")
     if err:
         print(f"Failed to upload. Reason: {err}")
-        url16 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic16.jpg'
+        url16 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic16.jpg'
     else:
         url16 = "https://2img.net/h/telegra.ph" + r[0].get("src")
 else:
     print ('error')
-    url16 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic16.jpg'
+    url16 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic16.jpg'
 
 
 #获取马经 https://666.003123.me/js8/tu/ktzsx.png
@@ -336,12 +336,12 @@ if pic17.headers['Content-Type'] == 'image/jpeg':
     err = r[0].get("error")
     if err:
         print(f"Failed to upload. Reason: {err}")
-        url17 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic17.jpg'
+        url17 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic17.jpg'
     else:
         url17 = "https://2img.net/h/telegra.ph" + r[0].get("src")
 else:
     print ('error')
-    url17 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic17.jpg'
+    url17 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic17.jpg'
 
 #获取守护幸福 https://777.003123.me/index.php?c=2
 page = requests.get("https://777.003123.me/index.php?c=2").text
@@ -372,12 +372,12 @@ if pic18.headers['Content-Type'] == 'image/jpeg':
     err = r[0].get("error")
     if err:
         print(f"Failed to upload. Reason: {err}")
-        url18 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic18.jpg'
+        url18 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic18.jpg'
     else:
         url18 = "https://2img.net/h/telegra.ph" + r[0].get("src")
 else:
     print ('error')
-    url18 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic18.jpg'
+    url18 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic18.jpg'
 
 
 
@@ -392,16 +392,16 @@ if pic19.headers['Content-Type'] == 'image/jpeg':
     err = r[0].get("error")
     if err:
         print(f"Failed to upload. Reason: {err}")
-        url19 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic19.jpg'
+        url19 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic19.jpg'
     else:
         url19 = "https://2img.net/h/telegra.ph" + r[0].get("src")
 else:
     print ('error')
-    url19 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic19.jpg'
+    url19 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic19.jpg'
 
 #保存html文本
 htmlconten = f'<div align="center" class="imgblock"><a href="{url01}" target="_blank"><img src="{url01}" / ><a href="{url19}" target="_blank"><img src="{url19}" / ></div><div align="center" class="imgblock"><a href="{url03}" target="_blank"><img src="{url03}" / ><a href="{url04}" target="_blank"><img src="{url04}" / ></div><div align="center" class="imgblock"><a href="{url05}" target="_blank"><img src="{url05}" / ><a href="{url06}" target="_blank"><img src="{url06}" / ></div><div align="center" class="imgblock"><a href="{url07}" target="_blank"><img src="{url07}" / ><a href="{url08}" target="_blank"><img src="{url08}" / ></div><div align="center" class="imgblock"><a href="{url09}" target="_blank"><img src="{url09}" / ><a href="{url10}" target="_blank"><img src="{url10}" / ></div><div align="center" class="imgblock"><a href="{url11}" target="_blank"><img src="{url11}" / ><a href="{url12}" target="_blank"><img src="{url12}" / ></div><div align="center" class="imgblock"><a href="{url13}" target="_blank"><img src="{url13}" / ><a href="{url14}" target="_blank"><img src="{url14}" / ></div><div align="center" class="imgblock"><a href="{url15}" target="_blank"><img src="{url15}" / ><a href="{url16}" target="_blank"><img src="{url16}" / ></div><div align="center" class="imgblock"><a href="{url17}" target="_blank"><img src="{url17}" / ><a href="{url18}" target="_blank"><img src="{url18}" / ></div><div align="center" class="imgblock"><a href="{url02}" target="_blank"><img src="{url02}" / ></div></body></html>'
-title = '<!DOCTYPE html><html><head><meta charset="utf-8"><title>澳门图片</title></head><body><style type="text/css">.imgblock img{width:50%;height:500px;flost:left;}</style><h1 align="center" style="color:red ; font-size:50px">图片列表</h1>'
+title = '<!DOCTYPE html><html><head><meta charset="utf-8"><title>澳门图片</title></head><body><style type="text/css">.imgblock img{width:50%;height:500px;flost:left;}</style><h1 align="center" style="color:red ; font-size:50px">澳门图片</h1>'
 html = title+htmlconten
 print('写入html')
 with open('aomen/html.txt','w') as f:

@@ -71,7 +71,7 @@ if pic03.headers['Content-Type'] == 'image/jpeg':
         url03 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic03.jpg'
     else:
         url03 = "https://2img.net/h/telegra.ph" + r[0].get("src")
-    print ('error')
+print ('error')
     url03 = 'https://2img.net/h/raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic03.jpg'
 
 #获取石狮镇码 https://49152c.com

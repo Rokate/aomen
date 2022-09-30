@@ -28,7 +28,7 @@ jobs:
       
     - name: Get current date
       id: today
-      run: echo "::set-output name=date::$(date +'%Y%m%d')"
+      run: echo "::set-output name=date::$(date +'%Y%m%d%H')"
         
     - name: Push to Repo
       uses: dmnemec/copy_file_to_another_repo_action@v1.1.0

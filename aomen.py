@@ -589,6 +589,82 @@ else:
     print ('error')
     url26 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic26.jpg'
     
+#获取发财单双 https://www.353583.com/
+pic27 = requests.get(f"https://www.353583.com/tutu/ujcc{qishu}.jpg")
+if pic27.headers['Content-Type'] == 'image/jpeg':
+    print ('图下27')    
+    with open('aomen/pic27.jpg', 'wb') as f:
+        f.write(pic27.content)
+    files = {'files': open('aomen/pic27.jpg', 'rb')}
+    r = requests.post("https://telegra.ph/upload", files=files).json()
+    err = r[0].get("error")
+    if err:
+        print(f"Failed to upload. Reason: {err}")
+        url27 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic27.jpg'
+    else:    
+        url27 = "https://2img.net/h/telegra.ph" + r[0].get("src")
+        print(url27)
+else:
+    print ('error')
+    url27 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic27.jpg'
+    
+#获取独家平特 https://www.29761a.com/img/djpt273.jpg
+pic28 = requests.get(f"https://www.29761a.com/img/djpt{qishu}.jpg")
+if pic28.headers['Content-Type'] == 'image/jpeg':
+    print ('图下28')    
+    with open('aomen/pic28.jpg', 'wb') as f:
+        f.write(pic28.content)
+    files = {'files': open('aomen/pic28.jpg', 'rb')}
+    r = requests.post("https://telegra.ph/upload", files=files).json()
+    err = r[0].get("error")
+    if err:
+        print(f"Failed to upload. Reason: {err}")
+        url28 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic28.jpg'
+    else:    
+        url28 = "https://2img.net/h/telegra.ph" + r[0].get("src")
+        print(url28)
+else:
+    print ('error')
+    url28 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic28.jpg'
+    
+#获取单双主三肖 https://49629a.com/img/1xzt273.jpg
+pic29 = requests.get(f"49629a.com/img/1xzt{qishu}.jpg")
+if pic29.headers['Content-Type'] == 'image/jpeg':
+    print ('图下29')    
+    with open('aomen/pic29.jpg', 'wb') as f:
+        f.write(pic29.content)
+    files = {'files': open('aomen/pic29.jpg', 'rb')}
+    r = requests.post("https://telegra.ph/upload", files=files).json()
+    err = r[0].get("error")
+    if err:
+        print(f"Failed to upload. Reason: {err}")
+        url29 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic29.jpg'
+    else:
+        url29= "https://2img.net/h/telegra.ph" + r[0].get("src")
+        print(url29)
+else:
+    print ('error')
+    url29 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic29.jpg'
+    
+#获取财神到玄机 https://49152c.com/#/picture/28111
+pic30 = requests.get(f"https://tk2.sycccf.com:4949/col/{qishu}/mfpy.jpg")
+if pic30.headers['Content-Type'] == 'image/jpeg':
+    print ('图下30')    
+    with open('aomen/pic30.jpg', 'wb') as f:
+        f.write(pic30.content)
+    files = {'files': open('aomen/pic30.jpg', 'rb')}
+    r = requests.post("https://telegra.ph/upload", files=files).json()
+    err = r[0].get("error")
+    if err:
+        print(f"Failed to upload. Reason: {err}")
+        url30 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic30.jpg'
+    else:
+        url30= "https://2img.net/h/telegra.ph" + r[0].get("src")
+        print(url30)
+else:
+    print ('error')
+    url30 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic30.jpg'
+    
 
 #保存html文本
 htmlconten = f'<div align="center" class="imgblock"><a href="{url01}" target="_blank"><img src="{url01}" / ><a href="{url19}" target="_blank"><img src="{url19}" / ></div><div align="center" class="imgblock"><a href="{url03}" target="_blank"><img src="{url03}" / ><a href="{url04}" target="_blank"><img src="{url04}" / ></div><div align="center" class="imgblock"><a href="{url05}" target="_blank"><img src="{url05}" / ><a href="{url06}" target="_blank"><img src="{url06}" / ></div><div align="center" class="imgblock"><a href="{url07}" target="_blank"><img src="{url07}" / ><a href="{url08}" target="_blank"><img src="{url08}" / ></div><div align="center" class="imgblock"><a href="{url09}" target="_blank"><img src="{url09}" / ><a href="{url10}" target="_blank"><img src="{url10}" / ></div><div align="center" class="imgblock"><a href="{url11}" target="_blank"><img src="{url11}" / ><a href="{url12}" target="_blank"><img src="{url12}" / ></div><div align="center" class="imgblock"><a href="{url13}" target="_blank"><img src="{url13}" / ><a href="{url14}" target="_blank"><img src="{url14}" / ></div><div align="center" class="imgblock"><a href="{url15}" target="_blank"><img src="{url15}" / ><a href="{url16}" target="_blank"><img src="{url16}" / ></div><div align="center" class="imgblock"><a href="{url17}" target="_blank"><img src="{url17}" / ><a href="{url18}" target="_blank"><img src="{url18}" / ></div><h1 align="center" style="color:red ; font-size:50px">香港图片</h1><div align="center" class="imgblock"><a href="{url02}" target="_blank"><img src="{url02}" /></div><div align="center" class="imgblock"><a href="{url20}" target="_blank"><img src="{url20}" / ><a href="{url21}" target="_blank"><img src="{url21}" / ></div></body></html>'

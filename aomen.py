@@ -493,6 +493,102 @@ if pic21.headers['Content-Type'] == 'image/jpeg':
 else:
     print ('error')
     url21 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic20.jpg'
+    
+#获取黄大仙发财符 https://49152c.com/#/picture/28247
+pic22 = requests.get(f"https://tk2.sycccf.com:4949/col/{qishu}/tt38.jpg")
+if pic22.headers['Content-Type'] == 'image/jpeg':
+    print ('图下22')    
+    with open('aomen/pic22.jpg', 'wb') as f:
+        f.write(pic22.content)
+    files = {'files': open('aomen/pic22.jpg', 'rb')}
+    r = requests.post("https://telegra.ph/upload", files=files).json()
+    err = r[0].get("error")
+    if err:
+        print(f"Failed to upload. Reason: {err}")
+        url22 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic22.jpg'
+    else:
+        url22 = "https://2img.net/h/telegra.ph" + r[0].get("src")
+        print(url22)
+else:
+    print ('error')
+    url22 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic22.jpg'
+    
+#获取澳门火凤凰 https://49152c.com/#/picture/209347
+pic23 = requests.get(f"https://tk2.sycccf.com:4949/col/{qishu}/amffh.jpg")
+if pic23.headers['Content-Type'] == 'image/jpeg':
+    print ('图下23')    
+    with open('aomen/pic23.jpg', 'wb') as f:
+        f.write(pic23.content)
+    files = {'files': open('aomen/pic23.jpg', 'rb')}
+    r = requests.post("https://telegra.ph/upload", files=files).json()
+    err = r[0].get("error")
+    if err:
+        print(f"Failed to upload. Reason: {err}")
+        url23 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic23.jpg'
+    else:
+        url23 = "https://2img.net/h/telegra.ph" + r[0].get("src")
+        print(url23)
+else:
+    print ('error')
+    url23 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic23.jpg'
+    
+#获取澳门火凤凰 https://49152c.com/#/picture/209351
+pic24 = requests.get(f"https://tk2.sycccf.com:4949/col/{qishu}/amfql.jpg")
+if pic24.headers['Content-Type'] == 'image/jpeg':
+    print ('图下24')    
+    with open('aomen/pic24.jpg', 'wb') as f:
+        f.write(pic24.content)
+    files = {'files': open('aomen/pic24.jpg', 'rb')}
+    r = requests.post("https://telegra.ph/upload", files=files).json()
+    err = r[0].get("error")
+    if err:
+        print(f"Failed to upload. Reason: {err}")
+        url24 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic24.jpg'
+    else:
+        url24 = "https://2img.net/h/telegra.ph" + r[0].get("src")
+        print(url24)
+else:
+    print ('error')
+    url24 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic24.jpg'
+    
+#获取澳门签牌 https://49152c.com/#/picture/28096
+pic25 = requests.get(f"https://tk2.sycccf.com:4949/col/{qishu}/twqp.jpg")
+if pic25.headers['Content-Type'] == 'image/jpeg':
+    print ('图下25')    
+    with open('aomen/pic25.jpg', 'wb') as f:
+        f.write(pic25.content)
+    files = {'files': open('aomen/pic25.jpg', 'rb')}
+    r = requests.post("https://telegra.ph/upload", files=files).json()
+    err = r[0].get("error")
+    if err:
+        print(f"Failed to upload. Reason: {err}")
+        url25 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic25.jpg'
+    else:
+        url25= "https://2img.net/h/telegra.ph" + r[0].get("src")
+        print(url25)
+else:
+    print ('error')
+    url25 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic25.jpg'
+    
+#获取金龙三肖 https://49629a.com/img/jl3x273.jpg
+pic26 = requests.get(f"49629a.com/img/jl3x{qishu}.jpg")
+if pic26.headers['Content-Type'] == 'image/jpeg':
+    print ('图下26')    
+    with open('aomen/pic26.jpg', 'wb') as f:
+        f.write(pic26.content)
+    files = {'files': open('aomen/pic26.jpg', 'rb')}
+    r = requests.post("https://telegra.ph/upload", files=files).json()
+    err = r[0].get("error")
+    if err:
+        print(f"Failed to upload. Reason: {err}")
+        url26 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic26.jpg'
+    else:
+        url26= "https://2img.net/h/telegra.ph" + r[0].get("src")
+        print(url26)
+else:
+    print ('error')
+    url26 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic26.jpg'
+    
 
 #保存html文本
 htmlconten = f'<div align="center" class="imgblock"><a href="{url01}" target="_blank"><img src="{url01}" / ><a href="{url19}" target="_blank"><img src="{url19}" / ></div><div align="center" class="imgblock"><a href="{url03}" target="_blank"><img src="{url03}" / ><a href="{url04}" target="_blank"><img src="{url04}" / ></div><div align="center" class="imgblock"><a href="{url05}" target="_blank"><img src="{url05}" / ><a href="{url06}" target="_blank"><img src="{url06}" / ></div><div align="center" class="imgblock"><a href="{url07}" target="_blank"><img src="{url07}" / ><a href="{url08}" target="_blank"><img src="{url08}" / ></div><div align="center" class="imgblock"><a href="{url09}" target="_blank"><img src="{url09}" / ><a href="{url10}" target="_blank"><img src="{url10}" / ></div><div align="center" class="imgblock"><a href="{url11}" target="_blank"><img src="{url11}" / ><a href="{url12}" target="_blank"><img src="{url12}" / ></div><div align="center" class="imgblock"><a href="{url13}" target="_blank"><img src="{url13}" / ><a href="{url14}" target="_blank"><img src="{url14}" / ></div><div align="center" class="imgblock"><a href="{url15}" target="_blank"><img src="{url15}" / ><a href="{url16}" target="_blank"><img src="{url16}" / ></div><div align="center" class="imgblock"><a href="{url17}" target="_blank"><img src="{url17}" / ><a href="{url18}" target="_blank"><img src="{url18}" / ></div><h1 align="center" style="color:red ; font-size:50px">香港图片</h1><div align="center" class="imgblock"><a href="{url02}" target="_blank"><img src="{url02}" /></div><div align="center" class="imgblock"><a href="{url20}" target="_blank"><img src="{url20}" / ><a href="{url21}" target="_blank"><img src="{url21}" / ></div></body></html>'

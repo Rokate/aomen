@@ -571,7 +571,7 @@ else:
     url25 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic25.jpg'
     
 #获取金龙三肖 https://49629a.com/img/jl3x273.jpg
-pic26 = requests.get(f"49629a.com/img/jl3x{qishu}.jpg")
+pic26 = requests.get(f"https://49629a.com/img/jl3x{qishu}.jpg")
 if pic26.headers['Content-Type'] == 'image/jpeg':
     print ('图下26')    
     with open('aomen/pic26.jpg', 'wb') as f:
@@ -628,7 +628,7 @@ else:
     url28 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic28.jpg'
     
 #获取单双主三肖 https://49629a.com/img/1xzt273.jpg
-pic29 = requests.get(f"49629a.com/img/1xzt{qishu}.jpg")
+pic29 = requests.get(f"https://49629a.com/img/1xzt{qishu}.jpg")
 if pic29.headers['Content-Type'] == 'image/jpeg':
     print ('图下29')    
     with open('aomen/pic29.jpg', 'wb') as f:

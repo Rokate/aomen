@@ -34,6 +34,7 @@ if pic01.headers['Content-Type'] == 'image/jpeg':
         url01 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic01.jpg'
     else:
         url01 = "https://2img.net/h/telegra.ph" + r[0].get("src")
+        print(url01)
 else:
     print ('error')
     url01 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic01.jpg'
@@ -53,6 +54,7 @@ if pic02.headers['Content-Type'] == 'image/jpeg':
         url02 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic02.jpg'
     else:
         url02 = "https://2img.net/h/telegra.ph" + r[0].get("src")
+        print(url02)
 else:
     print ('error')
     url02 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic02.jpg'
@@ -71,6 +73,7 @@ if pic03.headers['Content-Type'] == 'image/jpeg':
         url03 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic03.jpg'
     else:
         url03 = "https://2img.net/h/telegra.ph" + r[0].get("src")
+        print(url03)
 else:
     print ('error')
     url03 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic03.jpg'
@@ -89,6 +92,7 @@ if pic04.headers['Content-Type'] == 'image/jpeg':
         url04 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic04.jpg'
     else:
         url04 = "https://2img.net/h/telegra.ph" + r[0].get("src")
+        print(url04)
 else:
     print ('error')
     url04 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic04.jpg'
@@ -107,6 +111,7 @@ if pic05.headers['Content-Type'] == 'image/jpeg':
         url05 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic05.jpg'
     else:    
         url05 = "https://2img.net/h/telegra.ph" + r[0].get("src")
+        print(url05)
 else:
     print ('error')
     url05 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic05.jpg'
@@ -125,6 +130,7 @@ if pic06.headers['Content-Type'] == 'image/jpeg':
         url06 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic06.jpg'
     else:
         url06 = "https://2img.net/h/telegra.ph" + r[0].get("src")
+        print(url06)
 else:
     print ('error')
     url06 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic06.jpg'
@@ -143,6 +149,7 @@ if pic07.headers['Content-Type'] == 'image/jpeg':
         url07 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic07.jpg'
     else:
         url07 = "https://2img.net/h/telegra.ph" + r[0].get("src")
+        print(url07)
 else:
     print ('error')
     url07 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic07.jpg'
@@ -161,6 +168,7 @@ if pic08.headers['Content-Type'] == 'image/jpeg':
         url08 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic08.jpg'
     else:
         url08 = "https://2img.net/h/telegra.ph" + r[0].get("src")
+        print(url08)
 else:
     print ('error')
     url08 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic08.jpg' 
@@ -179,6 +187,7 @@ if pic09.headers['Content-Type'] == 'image/jpeg':
         url09 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic09.jpg' 
     else:
         url09 = "https://2img.net/h/telegra.ph" + r[0].get("src")
+        print(url09)
 else:
     print ('error')
     url09 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic09.jpg' 
@@ -197,6 +206,7 @@ if pic10.headers['Content-Type'] == 'image/jpeg':
         url10 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic10.jpg'
     else:
         url10 = "https://2img.net/h/telegra.ph" + r[0].get("src")
+        print(url10)
 else:
     print ('error')
     url10 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic10.jpg'
@@ -215,6 +225,7 @@ if pic11.headers['Content-Type'] == 'image/jpeg':
         url11 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic11.jpg'
     else:
         url11 = "https://2img.net/h/telegra.ph" + r[0].get("src")
+        print(url11)
 else:
     print ('error')
     url11 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic11.jpg'
@@ -233,6 +244,7 @@ if pic12.headers['Content-Type'] == 'image/jpeg':
         url12 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic12.jpg'
     else:
         url12 = "https://2img.net/h/telegra.ph" + r[0].get("src")
+        print(url12)
 else:
     print ('error')
     url12 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic12.jpg'
@@ -251,6 +263,7 @@ if pic13.headers['Content-Type'] == 'image/jpeg':
         url13 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic13.jpg'
     else:
         url13 = "https://2img.net/h/telegra.ph" + r[0].get("src")
+        print(url13)
 else:
     print ('error')
     url13 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic13.jpg'
@@ -269,6 +282,7 @@ if pic14.headers['Content-Type'] == 'image/jpeg':
         url14 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic14.jpg'
     else:
         url14 = "https://2img.net/h/telegra.ph" + r[0].get("src")
+        print(url14)
 else:
     print ('error')
     url14 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic14.jpg'
@@ -287,6 +301,7 @@ if pic15.headers['Content-Type'] == 'image/jpeg':
         url15 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic15.jpg'
     else:
         url15 = "https://2img.net/h/telegra.ph" + r[0].get("src")
+        print(url15)
 else:
     print ('error')
     url15 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic15.jpg'
@@ -305,13 +320,14 @@ if pic16.headers['Content-Type'] == 'image/jpeg':
         url16 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic16.jpg'
     else:
         url16 = "https://2img.net/h/telegra.ph" + r[0].get("src")
+        print(url16)
 else:
     print ('error')
     url16 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic16.jpg'
 
 
 #获取马经 https://666.003123.me/js8/tu/ktzsx.png
-page = requests.get("https://777.003123.me/index.php?c=5").text
+page = requests.get("https://amtutu.003123.club/yjjy/index.php?c=5").text
 pattern = re.compile('Title: <a href="(.*?)">No Title')
 m =  re.findall(pattern, page)
 page2 = requests.get(m[0]).text
@@ -326,7 +342,7 @@ headers = {
     'sec-ch-ua-platform': '"Windows"',
 }
 
-pic17 = requests.get("https://777.003123.me/InterPhoto.image.php"+m2[0],headers=headers)
+pic17 = requests.get("https://amtutu.003123.club/yjjy/InterPhoto.image.php"+m2[0],headers=headers)
 if pic17.headers['Content-Type'] == 'image/jpeg':
     print ('图下17')    
     with open('aomen/pic17.jpg', 'wb') as f:
@@ -339,12 +355,13 @@ if pic17.headers['Content-Type'] == 'image/jpeg':
         url17 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic17.jpg'
     else:
         url17 = "https://2img.net/h/telegra.ph" + r[0].get("src")
+        print(url17)
 else:
     print ('error')
     url17 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic17.jpg'
 
 #获取守护幸福 https://777.003123.me/index.php?c=2
-page = requests.get("https://777.003123.me/index.php?c=2").text
+page = requests.get("https://amtutu.003123.club/yjjy/index.php?c=2").text
 pattern = re.compile('Title: <a href="(.*?)">No Title')
 m =  re.findall(pattern, page)
 page2 = requests.get(m[0]).text
@@ -355,13 +372,13 @@ m2 =  re.findall(pattern2, page2)
 
 headers = {
     'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="98"',
-    'Referer': 'https://777.003123.me/InterPhoto.php?id=64384',
+    'Referer': m[0],
     'sec-ch-ua-mobile': '?0',
     'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.139 Safari/537.36',
     'sec-ch-ua-platform': '"Windows"',
 }
 
-pic18 = requests.get("https://777.003123.me/InterPhoto.image.php"+m2[0],headers=headers)
+pic18 = requests.get("https://amtutu.003123.club/yjjy/InterPhoto.image.php"+m2[0],headers=headers)
 
 if pic18.headers['Content-Type'] == 'image/jpeg':
     print ('图下18')
@@ -375,6 +392,7 @@ if pic18.headers['Content-Type'] == 'image/jpeg':
         url18 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic18.jpg'
     else:
         url18 = "https://2img.net/h/telegra.ph" + r[0].get("src")
+        print(url18)
 else:
     print ('error')
     url18 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic18.jpg'
@@ -395,9 +413,86 @@ if pic19.headers['Content-Type'] == 'image/jpeg':
         url19 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic19.jpg'
     else:
         url19 = "https://2img.net/h/telegra.ph" + r[0].get("src")
+        print(url19)
 else:
     print ('error')
     url19 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic19.jpg'
+    
+#获取香港马经
+page = requests.get("https://xgtutu.003123.club/yjjy/index.php?c=16")
+page.encoding = "utf-8"
+
+pattern = re.compile('Title: <a href="(.*?)">马经')
+m =  re.findall(pattern, page.text)
+
+page2 = requests.get(m[0]).text
+
+pattern2 = re.compile('InterPhoto.image.php(.*?)"')
+m2 =  re.findall(pattern2, page2)
+headers = {
+    'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="98"',
+    'Referer': m[0],
+    'sec-ch-ua-mobile': '?0',
+    'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.139 Safari/537.36',
+    'sec-ch-ua-platform': '"Windows"',
+}
+
+pic20 = requests.get("https://xgtutu.003123.club/yjjy/InterPhoto.image.php"+m2[0],headers=headers)
+if pic20.headers['Content-Type'] == 'image/jpeg':
+    print ('图下20')    
+    with open('aomen/pic20.jpg', 'wb') as f:
+        f.write(pic20.content)
+    files = {'files': open('aomen/pic20.jpg', 'rb')}
+    r = requests.post("https://telegra.ph/upload", files=files).json()
+    err = r[0].get("error")
+    if err:
+        print(f"Failed to upload. Reason: {err}")
+        url20 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic20.jpg'
+    else:
+        url20 = "https://2img.net/h/telegra.ph" + r[0].get("src")
+        print(url20)
+      
+else:
+    print ('error')
+    url20 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic20.jpg'
+    
+#获取香港守护幸福
+page = requests.get("https://xgtutu.003123.club/yjjy/index.php?c=17")
+page.encoding = "utf-8"
+
+pattern = re.compile('Title: <a href="(.*?)">守护幸福')
+m =  re.findall(pattern, page.text)
+
+page2 = requests.get(m[0]).text
+
+pattern2 = re.compile('InterPhoto.image.php(.*?)"')
+m2 =  re.findall(pattern2, page2)
+headers = {
+    'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="98"',
+    'Referer': m[0],
+    'sec-ch-ua-mobile': '?0',
+    'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.139 Safari/537.36',
+    'sec-ch-ua-platform': '"Windows"',
+}
+
+pic21 = requests.get("https://xgtutu.003123.club/yjjy/InterPhoto.image.php"+m2[0],headers=headers)
+if pic21.headers['Content-Type'] == 'image/jpeg':
+    print ('图下21')    
+    with open('aomen/pic21.jpg', 'wb') as f:
+        f.write(pic21.content)
+    files = {'files': open('aomen/pic21.jpg', 'rb')}
+    r = requests.post("https://telegra.ph/upload", files=files).json()
+    err = r[0].get("error")
+    if err:
+        print(f"Failed to upload. Reason: {err}")
+        url21 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic20.jpg'
+    else:
+        url21 = "https://2img.net/h/telegra.ph" + r[0].get("src")
+        print(url21)
+      
+else:
+    print ('error')
+    url21 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic20.jpg'
 
 #保存html文本
 htmlconten = f'<div align="center" class="imgblock"><a href="{url01}" target="_blank"><img src="{url01}" / ><a href="{url19}" target="_blank"><img src="{url19}" / ></div><div align="center" class="imgblock"><a href="{url03}" target="_blank"><img src="{url03}" / ><a href="{url04}" target="_blank"><img src="{url04}" / ></div><div align="center" class="imgblock"><a href="{url05}" target="_blank"><img src="{url05}" / ><a href="{url06}" target="_blank"><img src="{url06}" / ></div><div align="center" class="imgblock"><a href="{url07}" target="_blank"><img src="{url07}" / ><a href="{url08}" target="_blank"><img src="{url08}" / ></div><div align="center" class="imgblock"><a href="{url09}" target="_blank"><img src="{url09}" / ><a href="{url10}" target="_blank"><img src="{url10}" / ></div><div align="center" class="imgblock"><a href="{url11}" target="_blank"><img src="{url11}" / ><a href="{url12}" target="_blank"><img src="{url12}" / ></div><div align="center" class="imgblock"><a href="{url13}" target="_blank"><img src="{url13}" / ><a href="{url14}" target="_blank"><img src="{url14}" / ></div><div align="center" class="imgblock"><a href="{url15}" target="_blank"><img src="{url15}" / ><a href="{url16}" target="_blank"><img src="{url16}" / ></div><div align="center" class="imgblock"><a href="{url17}" target="_blank"><img src="{url17}" / ><a href="{url18}" target="_blank"><img src="{url18}" / ></div><div align="center" class="imgblock"><a href="{url02}" target="_blank"><img src="{url02}" / ></div></body></html>'

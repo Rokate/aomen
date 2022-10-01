@@ -343,7 +343,7 @@ else:
 
 #pic17 = requests.get("https://amtutu.003123.club/yjjy/InterPhoto.image.php"+m2[0],headers=headers)
 pic17 = requests.get("https://ambb688.003123.club/yjjy/js8/tu/ktzsx.png")
-if pic17.headers['Content-Type'] == 'image/jpeg':
+if pic17.headers['Content-Type'] == 'image/png':
     print ('图下17')    
     with open('aomen/pic17.jpg', 'wb') as f:
         f.write(pic17.content)

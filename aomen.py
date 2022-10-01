@@ -327,22 +327,22 @@ else:
 
 
 #获取马经 https://666.003123.me/js8/tu/ktzsx.png
-page = requests.get("https://amtutu.003123.club/yjjy/index.php?c=5").text
-pattern = re.compile('Title: <a href="(.*?)">No Title')
-m =  re.findall(pattern, page)
-page2 = requests.get(m[0]).text
+#page = requests.get("https://amtutu.003123.club/yjjy/index.php?c=5").text
+#pattern = re.compile('Title: <a href="(.*?)">No Title')
+#m =  re.findall(pattern, page)
+#page2 = requests.get(m[0]).text
 
-pattern2 = re.compile('InterPhoto.image.php(.*?)"')
-m2 =  re.findall(pattern2, page2)
-headers = {
-    'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="98"',
-    'Referer': m[0],
-    'sec-ch-ua-mobile': '?0',
-    'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.139 Safari/537.36',
-    'sec-ch-ua-platform': '"Windows"',
-}
+#pattern2 = re.compile('InterPhoto.image.php(.*?)"')
+#m2 =  re.findall(pattern2, page2)
+#headers = {
+#    'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="98"',
+#    'Referer': m[0],
+#    'sec-ch-ua-mobile': '?0',
+#    'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.139 Safari/537.36',
+#    'sec-ch-ua-platform': '"Windows"',}
 
-pic17 = requests.get("https://amtutu.003123.club/yjjy/InterPhoto.image.php"+m2[0],headers=headers)
+#pic17 = requests.get("https://amtutu.003123.club/yjjy/InterPhoto.image.php"+m2[0],headers=headers)
+pic17 = requests.get("https://ambb688.003123.club/yjjy/js8/tu/ktzsx.png")
 if pic17.headers['Content-Type'] == 'image/jpeg':
     print ('图下17')    
     with open('aomen/pic17.jpg', 'wb') as f:

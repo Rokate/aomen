@@ -212,8 +212,8 @@ else:
     print ('error')
     url10 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic10.jpg'
 
-#获取看图找生肖 https://49629a.com/ 49图库 https://49629a.com/img/ktzsx{qishu}.jpg
-pic11 = requests.get(f"https://tk2.sycccf.com:4949/col/{qishu}/ktzsx.jpg")
+#获取看图找生肖 https://49629a.com/ https://tk2.sycccf.com:4949/col/{qishu}/ktzsx.jpg 49图库 https://49629a.com/img/ktzsx{qishu}.jpg
+pic11 = requests.get(f"https://49629a.com/img/ktzsx{qishu}.jpg")
 if pic11.headers['Content-Type'] == 'image/jpeg':
     print ('图下11')    
     with open('aomen/pic11.jpg', 'wb') as f:

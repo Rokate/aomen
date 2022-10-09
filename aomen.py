@@ -665,10 +665,123 @@ if pic30.headers['Content-Type'] == 'image/jpeg':
 else:
     print ('error')
     url30 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic30.jpg'
+
+#获取香港马经挂牌B https://49152c.com
+pic31 = requests.get(f"https://tk.sycccf.com:4949/col/{xg}/b002.jpg")
+if pic31.headers['Content-Type'] == 'image/jpeg':
+    print ('图下31')   
+    with open('aomen/pic31.jpg', 'wb') as f:
+        f.write(pic31.content)
+    files = {'files': open('aomen/pic31.jpg', 'rb')}
+    r = requests.post("https://telegra.ph/upload", files=files).json()
+    err = r[0].get("error")
+    if err:
+        print(f"Failed to upload. Reason: {err}")
+        url31 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic31.jpg'
+    else:
+        url31 = "https://2img.net/h/telegra.ph" + r[0].get("src")
+        print(url31)
+else:
+    print ('error')
+    url31 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic31.jpg'
     
+#获取香港马经挂牌D https://49152c.com
+pic32 = requests.get(f"https://tk.sycccf.com:4949/col/{xg}/b004.jpg")
+if pic32.headers['Content-Type'] == 'image/jpeg':
+    print ('图下32')   
+    with open('aomen/pic32.jpg', 'wb') as f:
+        f.write(pic32.content)
+    files = {'files': open('aomen/pic32.jpg', 'rb')}
+    r = requests.post("https://telegra.ph/upload", files=files).json()
+    err = r[0].get("error")
+    if err:
+        print(f"Failed to upload. Reason: {err}")
+        url32 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic32.jpg'
+    else:
+        url32 = "https://2img.net/h/telegra.ph" + r[0].get("src")
+        print(url32)
+else:
+    print ('error')
+    url32 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic32.jpg'
+
+#获取香港马经挂牌F https://49152c.com
+pic33 = requests.get(f"https://tk.sycccf.com:4949/col/{xg}/b006.jpg")
+if pic33.headers['Content-Type'] == 'image/jpeg':
+    print ('图下33')   
+    with open('aomen/pic33.jpg', 'wb') as f:
+        f.write(pic33.content)
+    files = {'files': open('aomen/pic33.jpg', 'rb')}
+    r = requests.post("https://telegra.ph/upload", files=files).json()
+    err = r[0].get("error")
+    if err:
+        print(f"Failed to upload. Reason: {err}")
+        url33 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic33.jpg'
+    else:
+        url33 = "https://2img.net/h/telegra.ph" + r[0].get("src")
+        print(url33)
+else:
+    print ('error')
+    url33 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic33.jpg'
+
+#获取香港马经挂牌H https://49152c.com
+pic34 = requests.get(f"https://tk.sycccf.com:4949/col/{xg}/b008.jpg")
+if pic34.headers['Content-Type'] == 'image/jpeg':
+    print ('图下34')   
+    with open('aomen/pic34.jpg', 'wb') as f:
+        f.write(pic34.content)
+    files = {'files': open('aomen/pic34.jpg', 'rb')}
+    r = requests.post("https://telegra.ph/upload", files=files).json()
+    err = r[0].get("error")
+    if err:
+        print(f"Failed to upload. Reason: {err}")
+        url34 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic34.jpg'
+    else:
+        url34 = "https://2img.net/h/telegra.ph" + r[0].get("src")
+        print(url34)
+else:
+    print ('error')
+    url34 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic34.jpg'
+
+#获取香港乐百家 https://49152c.com
+pic35 = requests.get(f"https://tk.sycccf.com:4949/col/{xg}/j11.jpg")
+if pic35.headers['Content-Type'] == 'image/jpeg':
+    print ('图下35')   
+    with open('aomen/pic35.jpg', 'wb') as f:
+        f.write(pic35.content)
+    files = {'files': open('aomen/pic35.jpg', 'rb')}
+    r = requests.post("https://telegra.ph/upload", files=files).json()
+    err = r[0].get("error")
+    if err:
+        print(f"Failed to upload. Reason: {err}")
+        url35 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic35.jpg'
+    else:
+        url35 = "https://2img.net/h/telegra.ph" + r[0].get("src")
+        print(url35)
+else:
+    print ('error')
+    url35 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic35.jpg'
+
+#获取香港青龙报 https://49152c.com
+pic36 = requests.get(f"https://tk.sycccf.com:4949/col/{xg}/qlb.jpg")
+if pic36.headers['Content-Type'] == 'image/jpeg':
+    print ('图下36')   
+    with open('aomen/pic36.jpg', 'wb') as f:
+        f.write(pic36.content)
+    files = {'files': open('aomen/pic36.jpg', 'rb')}
+    r = requests.post("https://telegra.ph/upload", files=files).json()
+    err = r[0].get("error")
+    if err:
+        print(f"Failed to upload. Reason: {err}")
+        url36 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic36.jpg'
+    else:
+        url36 = "https://2img.net/h/telegra.ph" + r[0].get("src")
+        print(url36)
+else:
+    print ('error')
+    url36 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic36.jpg'
 
 #保存html文本
-htmlconten = f'<h1 align="center";font-size:50px">第{qishu}期{updatetime}</h1><div align="center" class="imgblock"><a href="{url01}" target="_blank"><img src="{url01}" / ><a href="{url19}" target="_blank"><img src="{url19}" / ></div><div align="center" class="imgblock"><a href="{url03}" target="_blank"><img src="{url03}" / ><a href="{url04}" target="_blank"><img src="{url04}" / ></div><div align="center" class="imgblock"><a href="{url05}" target="_blank"><img src="{url05}" / ><a href="{url06}" target="_blank"><img src="{url06}" / ></div><div align="center" class="imgblock"><a href="{url07}" target="_blank"><img src="{url07}" / ><a href="{url08}" target="_blank"><img src="{url08}" / ></div><div align="center" class="imgblock"><a href="{url09}" target="_blank"><img src="{url09}" / ><a href="{url10}" target="_blank"><img src="{url10}" / ></div><div align="center" class="imgblock"><a href="{url11}" target="_blank"><img src="{url11}" / ><a href="{url12}" target="_blank"><img src="{url12}" / ></div><div align="center" class="imgblock"><a href="{url13}" target="_blank"><img src="{url13}" / ><a href="{url14}" target="_blank"><img src="{url14}" / ></div><div align="center" class="imgblock"><a href="{url15}" target="_blank"><img src="{url15}" / ><a href="{url16}" target="_blank"><img src="{url16}" / ></div><div align="center" class="imgblock"><a href="{url17}" target="_blank"><img src="{url17}" / ><a href="{url18}" target="_blank"><img src="{url18}" / ></div><div align="center" class="imgblock"><a href="{url22}" target="_blank"><img src="{url22}" / ><a href="{url23}" target="_blank"><img src="{url23}" / ></div><div align="center" class="imgblock"><a href="{url24}" target="_blank"><img src="{url24}" / ><a href="{url25}" target="_blank"><img src="{url25}" / ></div><div align="center" class="imgblock"><a href="{url26}" target="_blank"><img src="{url26}" / ><a href="{url27}" target="_blank"><img src="{url27}" / ></div><div align="center" class="imgblock"><a href="{url28}" target="_blank"><img src="{url28}" / ><a href="{url29}" target="_blank"><img src="{url29}" / ></div><div align="center" class="imgblock"><a href="{url30}" target="_blank"><img src="{url30}" / ></div><h1 align="center" style="color:red ; font-size:50px">香港图片</h1><div align="center" class="imgblock"><a href="{url02}" target="_blank"><img src="{url02}" /></div><div align="center" class="imgblock"><a href="{url20}" target="_blank"><img src="{url20}" / ><a href="{url21}" target="_blank"><img src="{url21}" / ></div></body></html>'
+htmlconten = f'<h1 align="center";font-size:50px">第{qishu}期{updatetime}</h1><div align="center" class="imgblock"><a href="{url01}" target="_blank"><img src="{url01}" / ><a href="{url19}" target="_blank"><img src="{url19}" / ></div><div align="center" class="imgblock"><a href="{url03}" target="_blank"><img src="{url03}" / ><a href="{url04}" target="_blank"><img src="{url04}" / ></div><div align="center" class="imgblock"><a href="{url05}" target="_blank"><img src="{url05}" / ><a href="{url06}" target="_blank"><img src="{url06}" / ></div><div align="center" class="imgblock"><a href="{url07}" target="_blank"><img src="{url07}" / ><a href="{url08}" target="_blank"><img src="{url08}" / ></div><div align="center" class="imgblock"><a href="{url09}" target="_blank"><img src="{url09}" / ><a href="{url10}" target="_blank"><img src="{url10}" / ></div><div align="center" class="imgblock"><a href="{url11}" target="_blank"><img src="{url11}" / ><a href="{url12}" target="_blank"><img src="{url12}" / ></div><div align="center" class="imgblock"><a href="{url13}" target="_blank"><img src="{url13}" / ><a href="{url14}" target="_blank"><img src="{url14}" / ></div><div align="center" class="imgblock"><a href="{url15}" target="_blank"><img src="{url15}" / ><a href="{url16}" target="_blank"><img src="{url16}" / ></div><div align="center" class="imgblock"><a href="{url17}" target="_blank"><img src="{url17}" / ><a href="{url18}" target="_blank"><img src="{url18}" / ></div><div align="center" class="imgblock"><a href="{url22}" target="_blank"><img src="{url22}" / ><a href="{url23}" target="_blank"><img src="{url23}" / ></div><div align="center" class="imgblock"><a href="{url24}" target="_blank"><img src="{url24}" / ><a href="{url25}" target="_blank"><img src="{url25}" / ></div><div align="center" class="imgblock"><a href="{url26}" target="_blank"><img src="{url26}" / ><a href="{url27}" target="_blank"><img src="{url27}" / ></div><div align="center" class="imgblock"><a href="{url28}" target="_blank"><img src="{url28}" / ><a href="{url29}" target="_blank"><img src="{url29}" / ></div><div align="center" class="imgblock"><a href="{url30}" target="_blank"><img src="{url30}" / ></div><h1 align="center" style="color:red ; font-size:50px">香港图片</h1><div align="center" class="imgblock"><a href="{url02}" target="_blank"><img src="{url02}" /></div><div align="center" class="imgblock"><a href="{url20}" target="_blank"><img src="{url20}" / ><a href="{url21}" target="_blank"><img src="{url21}" / ></div><div align="center" class="imgblock"><a href="{url31}" target="_blank"><img src="{url31}" / ><a href="{url32}" target="_blank"><img src="{url32}" / ></div><div align="center" class="imgblock"><a href="{url33}" target="_blank"><img src="{url33}" / ><a href="{url34}" target="_blank"><img src="{url34}" / ></div><div align="center" class="imgblock"><a href="{url35}" target="_blank"><img src="{url35}" / ><a href="{url36}" target="_blank"><img src="{url36}" / ></div></body></html>'
 title = '<!DOCTYPE html><html><head><meta charset="utf-8"><title>澳门图片</title></head><body><style type="text/css">.imgblock img{width:50%;height:500px;flost:left;}</style><h1 align="center" style="color:red ; font-size:50px">澳门图片</h1>'
 html = title+htmlconten
 print('写入html')
@@ -680,4 +793,3 @@ pz = str(qishu + "|" + day + "|" + xg + "|")
 
 with open('aomen/time.txt', 'w') as f:
     f.write(pz)
-

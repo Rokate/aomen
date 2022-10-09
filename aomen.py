@@ -43,7 +43,7 @@ else:
 #获取香港挂牌玄机 https://49152c.com
 pic02 = requests.get(f"https://tk.sycccf.com:4949/col/{xg}/n1.jpg")
 if pic02.headers['Content-Type'] == 'image/jpeg':
-    xg = str(int(xg)+1)
+    
     print ('图下02')   
     with open('aomen/pic02.jpg', 'wb') as f:
         f.write(pic02.content)
@@ -764,6 +764,7 @@ else:
 #获取香港青龙报 https://49152c.com
 pic36 = requests.get(f"https://tk.sycccf.com:4949/col/{xg}/qlb.jpg")
 if pic36.headers['Content-Type'] == 'image/jpeg':
+    xg = str(int(xg)+1)
     print ('图下36')   
     with open('aomen/pic36.jpg', 'wb') as f:
         f.write(pic36.content)

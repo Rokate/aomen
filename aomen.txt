@@ -2,6 +2,11 @@
 https://www.353583.com/
 49图库
 https://49152c.com/#/
+https://49252a.com/unite49/h5/index/apiHost 获取最新访问地址
+https://49252a.com/unite49/h5/index/lotteryTime 获取开奖时间
+https://49252a.com/unite49/h5/index/urlList 获取防屏蔽地址
+https://49252a.com/unite49/h5/picture/detail/latest?pictureTypeId=10344 获取图片最新地址
+
 雷锋论坛
 https://29761a.com/
 

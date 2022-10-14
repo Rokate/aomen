@@ -22,7 +22,8 @@ else:
 
 
 #获取澳门挂牌玄机 https://49152c.com
-pic01 = requests.get(f"https://tk2.sycccf.com:4949/col/{qishu}/n1.jpg")
+picurl = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictureTypeId=28854').json()['data']['largePictureUrl']
+pic01 = requests.get(picurl)
 if pic01.headers['Content-Type'] == 'image/jpeg':
     print ('图下01')    
     with open('aomen/pic01.jpg', 'wb') as f:
@@ -41,7 +42,8 @@ else:
     url01 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic01.jpg'
 
 #获取香港挂牌玄机 https://49152c.com
-pic02 = requests.get(f"https://tk.sycccf.com:4949/col/{xg}/n1.jpg")
+picurl = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictureTypeId=10870').json()['data']['largePictureUrl']
+pic02 = requests.get(picurl)
 if pic02.headers['Content-Type'] == 'image/jpeg':
     
     print ('图下02')   
@@ -61,7 +63,8 @@ else:
     url02 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic02.jpg'
 
 #获取东成西就 https://49152c.com
-pic03 = requests.get(f"https://tk2.sycccf.com:4949/col/{qishu}/dcxj.jpg")
+picurl = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictureTypeId=209232').json()['data']['largePictureUrl']
+pic03 = requests.get(picurl)
 if pic03.headers['Content-Type'] == 'image/jpeg':
     print ('图下03')    
     with open('aomen/pic03.jpg', 'wb') as f:
@@ -80,7 +83,8 @@ else:
     url03 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic03.jpg'
 
 #获取石狮镇码 https://49152c.com
-pic04 = requests.get(f"https://tk2.sycccf.com:4949/col/{qishu}/sszm.jpg")
+picurl = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictureTypeId=209244').json()['data']['largePictureUrl']
+pic04 = requests.get(picurl)
 if pic04.headers['Content-Type'] == 'image/jpeg':
     print ('图下04')    
     with open('aomen/pic04.jpg', 'wb') as f:
@@ -213,7 +217,8 @@ else:
     url10 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic10.jpg'
 
 #获取看图找生肖 https://49629a.com/ https://tk2.sycccf.com:4949/col/{qishu}/ktzsx.jpg 49图库 https://49629a.com/img/ktzsx{qishu}.jpg
-pic11 = requests.get(f"https://49629a.com/img/ktzsx{qishu}.jpg")
+picurl = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictureTypeId=209362').json()['data']['largePictureUrl']
+pic11 = requests.get(picurl)
 if pic11.headers['Content-Type'] == 'image/jpeg':
     print ('图下11')    
     with open('aomen/pic11.jpg', 'wb') as f:
@@ -401,7 +406,8 @@ else:
 
 
 #获取招财猫四肖八码 https://49152c.com
-pic19 = requests.get(f"https://tk2.sycccf.com:4949/col/{qishu}/rv.jpg")
+picurl = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictureTypeId=316981').json()['data']['largePictureUrl']
+pic19 = requests.get(picurl)
 if pic19.headers['Content-Type'] == 'image/jpeg':
     print ('图下19')    
     with open('aomen/pic19.jpg', 'wb') as f:
@@ -496,7 +502,8 @@ else:
     url21 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic20.jpg'
     
 #获取黄大仙发财符 https://49152c.com/#/picture/28247
-pic22 = requests.get(f"https://tk2.sycccf.com:4949/col/{qishu}/tt38.jpg")
+picurl = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictureTypeId=28247').json()['data']['largePictureUrl']
+pic22 = requests.get(picurl)
 if pic22.headers['Content-Type'] == 'image/jpeg':
     print ('图下22')    
     with open('aomen/pic22.jpg', 'wb') as f:
@@ -515,7 +522,8 @@ else:
     url22 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic22.jpg'
     
 #获取澳门火凤凰 https://49152c.com/#/picture/209347
-pic23 = requests.get(f"https://tk2.sycccf.com:4949/col/{qishu}/amffh.jpg")
+picurl = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictureTypeId=209347').json()['data']['largePictureUrl']
+pic23 = requests.get(picurl)
 if pic23.headers['Content-Type'] == 'image/jpeg':
     print ('图下23')    
     with open('aomen/pic23.jpg', 'wb') as f:
@@ -534,7 +542,8 @@ else:
     url23 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic23.jpg'
     
 #获取澳门火凤凰 https://49152c.com/#/picture/209351
-pic24 = requests.get(f"https://tk2.sycccf.com:4949/col/{qishu}/amfql.jpg")
+picurl = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictureTypeId=209351').json()['data']['largePictureUrl']
+pic24 = requests.get(picurl)
 if pic24.headers['Content-Type'] == 'image/jpeg':
     print ('图下24')    
     with open('aomen/pic24.jpg', 'wb') as f:
@@ -553,7 +562,8 @@ else:
     url24 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic24.jpg'
     
 #获取澳门签牌 https://49152c.com/#/picture/28096
-pic25 = requests.get(f"https://tk2.sycccf.com:4949/col/{qishu}/twqp.jpg")
+picurl = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictureTypeId=28096').json()['data']['largePictureUrl']
+pic25 = requests.get(picurl)
 if pic25.headers['Content-Type'] == 'image/jpeg':
     print ('图下25')    
     with open('aomen/pic25.jpg', 'wb') as f:
@@ -648,7 +658,8 @@ else:
     url29 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic29.jpg'
     
 #获取财神到玄机 https://49152c.com/#/picture/28111
-pic30 = requests.get(f"https://tk2.sycccf.com:4949/col/{qishu}/mfpy.jpg")
+picurl = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictureTypeId=28111').json()['data']['largePictureUrl']
+pic30 = requests.get(picurl)
 if pic30.headers['Content-Type'] == 'image/jpeg':
     print ('图下30')    
     with open('aomen/pic30.jpg', 'wb') as f:
@@ -667,7 +678,8 @@ else:
     url30 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic30.jpg'
 
 #获取香港马经挂牌B https://49152c.com
-pic31 = requests.get(f"https://tk.sycccf.com:4949/col/{xg}/b002.jpg")
+picurl = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictureTypeId=10344').json()['data']['largePictureUrl']
+pic31 = requests.get(picurl)
 if pic31.headers['Content-Type'] == 'image/jpeg':
     print ('图下31')   
     with open('aomen/pic31.jpg', 'wb') as f:
@@ -686,7 +698,8 @@ else:
     url31 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic31.jpg'
     
 #获取香港马经挂牌D https://49152c.com
-pic32 = requests.get(f"https://tk.sycccf.com:4949/col/{xg}/b004.jpg")
+picurl = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictureTypeId=10346').json()['data']['largePictureUrl']
+pic32 = requests.get(picurl)
 if pic32.headers['Content-Type'] == 'image/jpeg':
     print ('图下32')   
     with open('aomen/pic32.jpg', 'wb') as f:
@@ -705,7 +718,8 @@ else:
     url32 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic32.jpg'
 
 #获取香港马经挂牌F https://49152c.com
-pic33 = requests.get(f"https://tk.sycccf.com:4949/col/{xg}/b006.jpg")
+picurl = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictureTypeId=10348').json()['data']['largePictureUrl']
+pic33 = requests.get(picurl)
 if pic33.headers['Content-Type'] == 'image/jpeg':
     print ('图下33')   
     with open('aomen/pic33.jpg', 'wb') as f:
@@ -724,7 +738,8 @@ else:
     url33 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic33.jpg'
 
 #获取香港马经挂牌H https://49152c.com
-pic34 = requests.get(f"https://tk.sycccf.com:4949/col/{xg}/b008.jpg")
+picurl = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictureTypeId=10350').json()['data']['largePictureUrl']
+pic34 = requests.get(picurl)
 if pic34.headers['Content-Type'] == 'image/jpeg':
     print ('图下34')   
     with open('aomen/pic34.jpg', 'wb') as f:
@@ -743,7 +758,8 @@ else:
     url34 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic34.jpg'
 
 #获取香港乐百家 https://49152c.com
-pic35 = requests.get(f"https://tk.sycccf.com:4949/col/{xg}/j11.jpg")
+picurl = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictureTypeId=10815').json()['data']['largePictureUrl']
+pic35 = requests.get(picurl)
 if pic35.headers['Content-Type'] == 'image/jpeg':
     print ('图下35')   
     with open('aomen/pic35.jpg', 'wb') as f:
@@ -762,7 +778,8 @@ else:
     url35 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic35.jpg'
 
 #获取香港青龙报 https://49152c.com
-pic36 = requests.get(f"https://tk.sycccf.com:4949/col/{xg}/qlb.jpg")
+picurl = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictureTypeId=15819').json()['data']['largePictureUrl']
+pic36 = requests.get(picurl)
 if pic36.headers['Content-Type'] == 'image/jpeg':
     xg = str(int(xg)+1)
     print ('图下36')   

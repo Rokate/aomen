@@ -26,10 +26,6 @@ jobs:
     - name: 'aomen'
       run: python aomen.py
       
-    - name: Get current date
-      id: today
-      run: echo "::set-output name=date::$(date +'%Y%m%d%H')"
-        
     - name: Push to Repo
       uses: dmnemec/copy_file_to_another_repo_action@v1.1.0
       env:
@@ -39,5 +35,5 @@ jobs:
         destination_repo: 'Rokate/imagebackup'
         user_email: 'rokate1990@gmail.com'
         user_name: 'Rokate'
-        commit_message: ${{ steps.today.outputs.date }}-update
+        commit_message: update
   

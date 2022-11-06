@@ -29,17 +29,8 @@ picurl = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictu
 pic01 = requests.get(picurl)
 if pic01.headers['Content-Type'] == 'image/jpeg':
     print ('图下01')    
-    with open('aomen/pic01.jpg', 'wb') as f:
-        f.write(pic01.content)
-    files = {'files': open('aomen/pic01.jpg', 'rb')}
-    r = requests.post("https://telegra.ph/upload", files=files).json()
-    err = r[0].get("error")
-    if err:
-        print(f"Failed to upload. Reason: {err}")
-        url01 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic01.jpg'
-    else:
-        url01 = "https://2img.net/h/telegra.ph" + r[0].get("src")
-        print(url01)
+    url01 = picurl
+    print(url01)
 else:
     print ('error')
     url01 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic01.jpg'
@@ -48,19 +39,9 @@ else:
 picurl = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictureTypeId=10870').json()['data']['largePictureUrl']
 pic02 = requests.get(picurl)
 if pic02.headers['Content-Type'] == 'image/jpeg':
-    
     print ('图下02')   
-    with open('aomen/pic02.jpg', 'wb') as f:
-        f.write(pic02.content)
-    files = {'files': open('aomen/pic02.jpg', 'rb')}
-    r = requests.post("https://telegra.ph/upload", files=files).json()
-    err = r[0].get("error")
-    if err:
-        print(f"Failed to upload. Reason: {err}")
-        url02 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic02.jpg'
-    else:
-        url02 = "https://2img.net/h/telegra.ph" + r[0].get("src")
-        print(url02)
+    url02 = picurl
+    print(url02)
 else:
     print ('error')
     url02 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic02.jpg'
@@ -70,17 +51,8 @@ picurl = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictu
 pic03 = requests.get(picurl)
 if pic03.headers['Content-Type'] == 'image/jpeg':
     print ('图下03')    
-    with open('aomen/pic03.jpg', 'wb') as f:
-        f.write(pic03.content)
-    files = {'files': open('aomen/pic03.jpg', 'rb')}
-    r = requests.post("https://telegra.ph/upload", files=files).json()
-    err = r[0].get("error")
-    if err:
-        print(f"Failed to upload. Reason: {err}")
-        url03 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic03.jpg'
-    else:
-        url03 = "https://2img.net/h/telegra.ph" + r[0].get("src")
-        print(url03)
+    url03 = picurl
+    print(url03)
 else:
     print ('error')
     url03 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic03.jpg'
@@ -90,17 +62,8 @@ picurl = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictu
 pic04 = requests.get(picurl)
 if pic04.headers['Content-Type'] == 'image/jpeg':
     print ('图下04')    
-    with open('aomen/pic04.jpg', 'wb') as f:
-        f.write(pic04.content)
-    files = {'files': open('aomen/pic04.jpg', 'rb')}
-    r = requests.post("https://telegra.ph/upload", files=files).json()
-    err = r[0].get("error")
-    if err:
-        print(f"Failed to upload. Reason: {err}")
-        url04 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic04.jpg'
-    else:
-        url04 = "https://2img.net/h/telegra.ph" + r[0].get("src")
-        print(url04)
+    url04 = picurl
+    print(url04)
 else:
     print ('error')
     url04 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic04.jpg'
@@ -109,17 +72,8 @@ else:
 pic05 = requests.get(f"https://www.353583.com/tutu/faf{qishu}.jpg")
 if pic05.headers['Content-Type'] == 'image/jpeg':
     print ('图下05')    
-    with open('aomen/pic05.jpg', 'wb') as f:
-        f.write(pic05.content)
-    files = {'files': open('aomen/pic05.jpg', 'rb')}
-    r = requests.post("https://telegra.ph/upload", files=files).json()
-    err = r[0].get("error")
-    if err:
-        print(f"Failed to upload. Reason: {err}")
-        url05 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic05.jpg'
-    else:    
-        url05 = "https://2img.net/h/telegra.ph" + r[0].get("src")
-        print(url05)
+    url05 = f"https://www.353583.com/tutu/faf{qishu}.jpg"
+    print(url05)
 else:
     print ('error')
     url05 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic05.jpg'
@@ -128,17 +82,8 @@ else:
 pic06 = requests.get(f"https://www.353583.com/tutu/fgmc{qishu}.jpg")
 if pic06.headers['Content-Type'] == 'image/jpeg':
     print ('图下06')    
-    with open('aomen/pic06.jpg', 'wb') as f:
-        f.write(pic06.content)
-    files = {'files': open('aomen/pic06.jpg', 'rb')}
-    r = requests.post("https://telegra.ph/upload", files=files).json()
-    err = r[0].get("error")
-    if err:
-        print(f"Failed to upload. Reason: {err}")
-        url06 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic06.jpg'
-    else:
-        url06 = "https://2img.net/h/telegra.ph" + r[0].get("src")
-        print(url06)
+    url06 = f"https://www.353583.com/tutu/fgmc{qishu}.jpg"
+    print(url06)
 else:
     print ('error')
     url06 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic06.jpg'
@@ -147,17 +92,8 @@ else:
 pic07 = requests.get(f"https://www.353583.com/tutu/6i12m{qishu}.jpg")
 if pic07.headers['Content-Type'] == 'image/jpeg':
     print ('图下07')    
-    with open('aomen/pic07.jpg', 'wb') as f:
-        f.write(pic07.content)
-    files = {'files': open('aomen/pic07.jpg', 'rb')}
-    r = requests.post("https://telegra.ph/upload", files=files).json()
-    err = r[0].get("error")
-    if err:
-        print(f"Failed to upload. Reason: {err}")
-        url07 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic07.jpg'
-    else:
-        url07 = "https://2img.net/h/telegra.ph" + r[0].get("src")
-        print(url07)
+    url07 = f"https://www.353583.com/tutu/6i12m{qishu}.jpg"
+    print(url07)
 else:
     print ('error')
     url07 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic07.jpg'
@@ -166,17 +102,8 @@ else:
 pic08 = requests.get(f"https://www.353583.com/tutu/gd{qishu}.jpg")
 if pic08.headers['Content-Type'] == 'image/jpeg':
     print ('图下08')    
-    with open('aomen/pic08.jpg', 'wb') as f:
-        f.write(pic08.content)
-    files = {'files': open('aomen/pic08.jpg', 'rb')}
-    r = requests.post("https://telegra.ph/upload", files=files).json()
-    err = r[0].get("error")
-    if err:
-        print(f"Failed to upload. Reason: {err}")
-        url08 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic08.jpg'
-    else:
-        url08 = "https://2img.net/h/telegra.ph" + r[0].get("src")
-        print(url08)
+    url08 = f"https://www.353583.com/tutu/gd{qishu}.jpg"
+    print(url08)
 else:
     print ('error')
     url08 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic08.jpg' 
@@ -185,17 +112,8 @@ else:
 pic09 = requests.get(f"https://www.353583.com/tutu/lhwt{qishu}.jpg")
 if pic09.headers['Content-Type'] == 'image/jpeg':
     print ('图下09')    
-    with open('aomen/pic09.jpg', 'wb') as f:
-        f.write(pic09.content)
-    files = {'files': open('aomen/pic09.jpg', 'rb')}
-    r = requests.post("https://telegra.ph/upload", files=files).json()
-    err = r[0].get("error")
-    if err:
-        print(f"Failed to upload. Reason: {err}")
-        url09 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic09.jpg' 
-    else:
-        url09 = "https://2img.net/h/telegra.ph" + r[0].get("src")
-        print(url09)
+    url09 = f"https://www.353583.com/tutu/lhwt{qishu}.jpg"
+    print(url09)
 else:
     print ('error')
     url09 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic09.jpg' 
@@ -204,17 +122,8 @@ else:
 pic10 = requests.get(f"https://www.353583.com/tutu/ugyf{qishu}.jpg")
 if pic10.headers['Content-Type'] == 'image/jpeg':
     print ('图下10')    
-    with open('aomen/pic10.jpg', 'wb') as f:
-        f.write(pic10.content)
-    files = {'files': open('aomen/pic10.jpg', 'rb')}
-    r = requests.post("https://telegra.ph/upload", files=files).json()
-    err = r[0].get("error")
-    if err:
-        print(f"Failed to upload. Reason: {err}")
-        url10 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic10.jpg'
-    else:
-        url10 = "https://2img.net/h/telegra.ph" + r[0].get("src")
-        print(url10)
+    url10 = f"https://www.353583.com/tutu/ugyf{qishu}.jpg"
+    print(url10)
 else:
     print ('error')
     url10 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic10.jpg'
@@ -224,17 +133,8 @@ picurl = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictu
 pic11 = requests.get(picurl)
 if pic11.headers['Content-Type'] == 'image/jpeg':
     print ('图下11')    
-    with open('aomen/pic11.jpg', 'wb') as f:
-        f.write(pic11.content)
-    files = {'files': open('aomen/pic11.jpg', 'rb')}
-    r = requests.post("https://telegra.ph/upload", files=files).json()
-    err = r[0].get("error")
-    if err:
-        print(f"Failed to upload. Reason: {err}")
-        url11 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic11.jpg'
-    else:
-        url11 = "https://2img.net/h/telegra.ph" + r[0].get("src")
-        print(url11)
+    url11 = picurl
+    print(url11)
 else:
     print ('error')
     url11 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic11.jpg'
@@ -243,17 +143,8 @@ else:
 pic12 = requests.get(f"https://49629a.com/img/amhg{qishu}.jpg")
 if pic12.headers['Content-Type'] == 'image/jpeg':
     print ('图下12')    
-    with open('aomen/pic12.jpg', 'wb') as f:
-        f.write(pic12.content)
-    files = {'files': open('aomen/pic12.jpg', 'rb')}
-    r = requests.post("https://telegra.ph/upload", files=files).json()
-    err = r[0].get("error")
-    if err:
-        print(f"Failed to upload. Reason: {err}")
-        url12 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic12.jpg'
-    else:
-        url12 = "https://2img.net/h/telegra.ph" + r[0].get("src")
-        print(url12)
+    url12 = f"https://49629a.com/img/amhg{qishu}.jpg"
+    print(url12)
 else:
     print ('error')
     url12 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic12.jpg'
@@ -262,17 +153,8 @@ else:
 pic13 = requests.get(f"https://49629a.com/img/zbxyb{qishu}.jpg")
 if pic13.headers['Content-Type'] == 'image/jpeg':
     print ('图下13')    
-    with open('aomen/pic13.jpg', 'wb') as f:
-        f.write(pic13.content)
-    files = {'files': open('aomen/pic13.jpg', 'rb')}
-    r = requests.post("https://telegra.ph/upload", files=files).json()
-    err = r[0].get("error")
-    if err:
-        print(f"Failed to upload. Reason: {err}")
-        url13 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic13.jpg'
-    else:
-        url13 = "https://2img.net/h/telegra.ph" + r[0].get("src")
-        print(url13)
+    url13 = f"https://49629a.com/img/zbxyb{qishu}.jpg"
+    print(url13)
 else:
     print ('error')
     url13 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic13.jpg'
@@ -281,17 +163,8 @@ else:
 pic14 = requests.get(f"https://49629a.com/img/nm4x8m{qishu}.jpg")
 if pic14.headers['Content-Type'] == 'image/jpeg':  
     print ('图下14')  
-    with open('aomen/pic14.jpg', 'wb') as f:
-        f.write(pic14.content)
-    files = {'files': open('aomen/pic14.jpg', 'rb')}
-    r = requests.post("https://telegra.ph/upload", files=files).json()
-    err = r[0].get("error")
-    if err:
-        print(f"Failed to upload. Reason: {err}")
-        url14 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic14.jpg'
-    else:
-        url14 = "https://2img.net/h/telegra.ph" + r[0].get("src")
-        print(url14)
+    url14 = f"https://49629a.com/img/nm4x8m{qishu}.jpg"
+    print(url14)
 else:
     print ('error')
     url14 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic14.jpg'
@@ -300,17 +173,8 @@ else:
 pic15 = requests.get(f"https://123186a.com/gsbtu/baoma{qishu}.jpg")
 if pic15.headers['Content-Type'] == 'image/jpeg':
     print ('图下15')    
-    with open('aomen/pic15.jpg', 'wb') as f:
-        f.write(pic15.content)
-    files = {'files': open('aomen/pic15.jpg', 'rb')}
-    r = requests.post("https://telegra.ph/upload", files=files).json()
-    err = r[0].get("error")
-    if err:
-        print(f"Failed to upload. Reason: {err}")
-        url15 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic15.jpg'
-    else:
-        url15 = "https://2img.net/h/telegra.ph" + r[0].get("src")
-        print(url15)
+    url15 = f"https://123186a.com/gsbtu/baoma{qishu}.jpg"
+    print(url15)
 else:
     print ('error')
     url15 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic15.jpg'
@@ -319,17 +183,8 @@ else:
 pic16 = requests.get(f"https://123186a.com/gsbtu/hdjr{qishu}.jpg")
 if pic16.headers['Content-Type'] == 'image/jpeg':
     print ('图下16')    
-    with open('aomen/pic16.jpg', 'wb') as f:
-        f.write(pic16.content)
-    files = {'files': open('aomen/pic16.jpg', 'rb')}
-    r = requests.post("https://telegra.ph/upload", files=files).json()
-    err = r[0].get("error")
-    if err:
-        print(f"Failed to upload. Reason: {err}")
-        url16 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic16.jpg'
-    else:
-        url16 = "https://2img.net/h/telegra.ph" + r[0].get("src")
-        print(url16)
+    url16 = f"https://123186a.com/gsbtu/hdjr{qishu}.jpg"
+    print(url16)
 else:
     print ('error')
     url16 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic16.jpg'
@@ -413,17 +268,8 @@ picurl = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictu
 pic19 = requests.get(picurl)
 if pic19.headers['Content-Type'] == 'image/jpeg':
     print ('图下19')    
-    with open('aomen/pic19.jpg', 'wb') as f:
-        f.write(pic19.content)
-    files = {'files': open('aomen/pic19.jpg', 'rb')}
-    r = requests.post("https://telegra.ph/upload", files=files).json()
-    err = r[0].get("error")
-    if err:
-        print(f"Failed to upload. Reason: {err}")
-        url19 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic19.jpg'
-    else:
-        url19 = "https://2img.net/h/telegra.ph" + r[0].get("src")
-        print(url19)
+    url19 = picurl
+    print(url19)
 else:
     print ('error')
     url19 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic19.jpg'
@@ -509,17 +355,8 @@ picurl = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictu
 pic22 = requests.get(picurl)
 if pic22.headers['Content-Type'] == 'image/jpeg':
     print ('图下22')    
-    with open('aomen/pic22.jpg', 'wb') as f:
-        f.write(pic22.content)
-    files = {'files': open('aomen/pic22.jpg', 'rb')}
-    r = requests.post("https://telegra.ph/upload", files=files).json()
-    err = r[0].get("error")
-    if err:
-        print(f"Failed to upload. Reason: {err}")
-        url22 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic22.jpg'
-    else:
-        url22 = "https://2img.net/h/telegra.ph" + r[0].get("src")
-        print(url22)
+    url22 = picurl
+    print(url22)
 else:
     print ('error')
     url22 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic22.jpg'
@@ -529,17 +366,8 @@ picurl = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictu
 pic23 = requests.get(picurl)
 if pic23.headers['Content-Type'] == 'image/jpeg':
     print ('图下23')    
-    with open('aomen/pic23.jpg', 'wb') as f:
-        f.write(pic23.content)
-    files = {'files': open('aomen/pic23.jpg', 'rb')}
-    r = requests.post("https://telegra.ph/upload", files=files).json()
-    err = r[0].get("error")
-    if err:
-        print(f"Failed to upload. Reason: {err}")
-        url23 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic23.jpg'
-    else:
-        url23 = "https://2img.net/h/telegra.ph" + r[0].get("src")
-        print(url23)
+    url23 = picurl
+    print(url23)
 else:
     print ('error')
     url23 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic23.jpg'
@@ -549,17 +377,8 @@ picurl = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictu
 pic24 = requests.get(picurl)
 if pic24.headers['Content-Type'] == 'image/jpeg':
     print ('图下24')    
-    with open('aomen/pic24.jpg', 'wb') as f:
-        f.write(pic24.content)
-    files = {'files': open('aomen/pic24.jpg', 'rb')}
-    r = requests.post("https://telegra.ph/upload", files=files).json()
-    err = r[0].get("error")
-    if err:
-        print(f"Failed to upload. Reason: {err}")
-        url24 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic24.jpg'
-    else:
-        url24 = "https://2img.net/h/telegra.ph" + r[0].get("src")
-        print(url24)
+    url24 = picurl
+    print(url24)
 else:
     print ('error')
     url24 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic24.jpg'
@@ -569,17 +388,8 @@ picurl = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictu
 pic25 = requests.get(picurl)
 if pic25.headers['Content-Type'] == 'image/jpeg':
     print ('图下25')    
-    with open('aomen/pic25.jpg', 'wb') as f:
-        f.write(pic25.content)
-    files = {'files': open('aomen/pic25.jpg', 'rb')}
-    r = requests.post("https://telegra.ph/upload", files=files).json()
-    err = r[0].get("error")
-    if err:
-        print(f"Failed to upload. Reason: {err}")
-        url25 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic25.jpg'
-    else:
-        url25= "https://2img.net/h/telegra.ph" + r[0].get("src")
-        print(url25)
+    url25= picurl
+    print(url25)
 else:
     print ('error')
     url25 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic25.jpg'
@@ -588,17 +398,8 @@ else:
 pic26 = requests.get(f"https://49629a.com/img/jl3x{qishu}.jpg")
 if pic26.headers['Content-Type'] == 'image/jpeg':
     print ('图下26')    
-    with open('aomen/pic26.jpg', 'wb') as f:
-        f.write(pic26.content)
-    files = {'files': open('aomen/pic26.jpg', 'rb')}
-    r = requests.post("https://telegra.ph/upload", files=files).json()
-    err = r[0].get("error")
-    if err:
-        print(f"Failed to upload. Reason: {err}")
-        url26 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic26.jpg'
-    else:
-        url26= "https://2img.net/h/telegra.ph" + r[0].get("src")
-        print(url26)
+    url26= f"https://49629a.com/img/jl3x{qishu}.jpg"
+    print(url26)
 else:
     print ('error')
     url26 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic26.jpg'
@@ -607,17 +408,8 @@ else:
 pic27 = requests.get(f"https://www.353583.com/tutu/ujcc{qishu}.jpg")
 if pic27.headers['Content-Type'] == 'image/jpeg':
     print ('图下27')    
-    with open('aomen/pic27.jpg', 'wb') as f:
-        f.write(pic27.content)
-    files = {'files': open('aomen/pic27.jpg', 'rb')}
-    r = requests.post("https://telegra.ph/upload", files=files).json()
-    err = r[0].get("error")
-    if err:
-        print(f"Failed to upload. Reason: {err}")
-        url27 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic27.jpg'
-    else:    
-        url27 = "https://2img.net/h/telegra.ph" + r[0].get("src")
-        print(url27)
+    url27 = f"https://www.353583.com/tutu/ujcc{qishu}.jpg"
+    print(url27)
 else:
     print ('error')
     url27 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic27.jpg'
@@ -626,17 +418,8 @@ else:
 pic28 = requests.get(f"https://www.29761a.com/img/djpt{qishu}.jpg")
 if pic28.headers['Content-Type'] == 'image/jpeg':
     print ('图下28')    
-    with open('aomen/pic28.jpg', 'wb') as f:
-        f.write(pic28.content)
-    files = {'files': open('aomen/pic28.jpg', 'rb')}
-    r = requests.post("https://telegra.ph/upload", files=files).json()
-    err = r[0].get("error")
-    if err:
-        print(f"Failed to upload. Reason: {err}")
-        url28 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic28.jpg'
-    else:    
-        url28 = "https://2img.net/h/telegra.ph" + r[0].get("src")
-        print(url28)
+    url28 = f"https://www.29761a.com/img/djpt{qishu}.jpg"
+    print(url28)
 else:
     print ('error')
     url28 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic28.jpg'
@@ -645,17 +428,8 @@ else:
 pic29 = requests.get(f"https://49629a.com/img/1xzt{qishu}.jpg")
 if pic29.headers['Content-Type'] == 'image/jpeg':
     print ('图下29')    
-    with open('aomen/pic29.jpg', 'wb') as f:
-        f.write(pic29.content)
-    files = {'files': open('aomen/pic29.jpg', 'rb')}
-    r = requests.post("https://telegra.ph/upload", files=files).json()
-    err = r[0].get("error")
-    if err:
-        print(f"Failed to upload. Reason: {err}")
-        url29 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic29.jpg'
-    else:
-        url29= "https://2img.net/h/telegra.ph" + r[0].get("src")
-        print(url29)
+    url29= f"https://49629a.com/img/1xzt{qishu}.jpg"
+    print(url29)
 else:
     print ('error')
     url29 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic29.jpg'
@@ -665,17 +439,8 @@ picurl = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictu
 pic30 = requests.get(picurl)
 if pic30.headers['Content-Type'] == 'image/jpeg':
     print ('图下30')    
-    with open('aomen/pic30.jpg', 'wb') as f:
-        f.write(pic30.content)
-    files = {'files': open('aomen/pic30.jpg', 'rb')}
-    r = requests.post("https://telegra.ph/upload", files=files).json()
-    err = r[0].get("error")
-    if err:
-        print(f"Failed to upload. Reason: {err}")
-        url30 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic30.jpg'
-    else:
-        url30= "https://2img.net/h/telegra.ph" + r[0].get("src")
-        print(url30)
+    url30= picurl
+    print(url30)
 else:
     print ('error')
     url30 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic30.jpg'
@@ -685,17 +450,8 @@ picurl = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictu
 pic31 = requests.get(picurl)
 if pic31.headers['Content-Type'] == 'image/jpeg':
     print ('图下31')   
-    with open('aomen/pic31.jpg', 'wb') as f:
-        f.write(pic31.content)
-    files = {'files': open('aomen/pic31.jpg', 'rb')}
-    r = requests.post("https://telegra.ph/upload", files=files).json()
-    err = r[0].get("error")
-    if err:
-        print(f"Failed to upload. Reason: {err}")
-        url31 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic31.jpg'
-    else:
-        url31 = "https://2img.net/h/telegra.ph" + r[0].get("src")
-        print(url31)
+    url31 = picurl
+    print(url31)
 else:
     print ('error')
     url31 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic31.jpg'
@@ -705,17 +461,8 @@ picurl = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictu
 pic32 = requests.get(picurl)
 if pic32.headers['Content-Type'] == 'image/jpeg':
     print ('图下32')   
-    with open('aomen/pic32.jpg', 'wb') as f:
-        f.write(pic32.content)
-    files = {'files': open('aomen/pic32.jpg', 'rb')}
-    r = requests.post("https://telegra.ph/upload", files=files).json()
-    err = r[0].get("error")
-    if err:
-        print(f"Failed to upload. Reason: {err}")
-        url32 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic32.jpg'
-    else:
-        url32 = "https://2img.net/h/telegra.ph" + r[0].get("src")
-        print(url32)
+    url32 = picurl
+    print(url32)
 else:
     print ('error')
     url32 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic32.jpg'
@@ -725,17 +472,8 @@ picurl = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictu
 pic33 = requests.get(picurl)
 if pic33.headers['Content-Type'] == 'image/jpeg':
     print ('图下33')   
-    with open('aomen/pic33.jpg', 'wb') as f:
-        f.write(pic33.content)
-    files = {'files': open('aomen/pic33.jpg', 'rb')}
-    r = requests.post("https://telegra.ph/upload", files=files).json()
-    err = r[0].get("error")
-    if err:
-        print(f"Failed to upload. Reason: {err}")
-        url33 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic33.jpg'
-    else:
-        url33 = "https://2img.net/h/telegra.ph" + r[0].get("src")
-        print(url33)
+    url33 = picurl
+    print(url33)
 else:
     print ('error')
     url33 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic33.jpg'
@@ -745,17 +483,8 @@ picurl = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictu
 pic34 = requests.get(picurl)
 if pic34.headers['Content-Type'] == 'image/jpeg':
     print ('图下34')   
-    with open('aomen/pic34.jpg', 'wb') as f:
-        f.write(pic34.content)
-    files = {'files': open('aomen/pic34.jpg', 'rb')}
-    r = requests.post("https://telegra.ph/upload", files=files).json()
-    err = r[0].get("error")
-    if err:
-        print(f"Failed to upload. Reason: {err}")
-        url34 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic34.jpg'
-    else:
-        url34 = "https://2img.net/h/telegra.ph" + r[0].get("src")
-        print(url34)
+    url34 = picurl
+    print(url34)
 else:
     print ('error')
     url34 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic34.jpg'
@@ -765,17 +494,8 @@ picurl = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictu
 pic35 = requests.get(picurl)
 if pic35.headers['Content-Type'] == 'image/jpeg':
     print ('图下35')   
-    with open('aomen/pic35.jpg', 'wb') as f:
-        f.write(pic35.content)
-    files = {'files': open('aomen/pic35.jpg', 'rb')}
-    r = requests.post("https://telegra.ph/upload", files=files).json()
-    err = r[0].get("error")
-    if err:
-        print(f"Failed to upload. Reason: {err}")
-        url35 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic35.jpg'
-    else:
-        url35 = "https://2img.net/h/telegra.ph" + r[0].get("src")
-        print(url35)
+    url35 = picurl
+    print(url35)
 else:
     print ('error')
     url35 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic35.jpg'
@@ -786,17 +506,8 @@ pic36 = requests.get(picurl)
 if pic36.headers['Content-Type'] == 'image/jpeg':
     xg = str(int(xg)+1)
     print ('图下36')   
-    with open('aomen/pic36.jpg', 'wb') as f:
-        f.write(pic36.content)
-    files = {'files': open('aomen/pic36.jpg', 'rb')}
-    r = requests.post("https://telegra.ph/upload", files=files).json()
-    err = r[0].get("error")
-    if err:
-        print(f"Failed to upload. Reason: {err}")
-        url36 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic36.jpg'
-    else:
-        url36 = "https://2img.net/h/telegra.ph" + r[0].get("src")
-        print(url36)
+    url36 = picurl
+    print(url36)
 else:
     print ('error')
     url36 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic36.jpg'
@@ -806,17 +517,8 @@ picurl = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictu
 pic37 = requests.get(picurl)
 if pic37.headers['Content-Type'] == 'image/jpeg':
     print ('图下37')   
-    with open('aomen/pic37.jpg', 'wb') as f:
-        f.write(pic37.content)
-    files = {'files': open('aomen/pic37.jpg', 'rb')}
-    r = requests.post("https://telegra.ph/upload", files=files).json()
-    err = r[0].get("error")
-    if err:
-        print(f"Failed to upload. Reason: {err}")
-        url37 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic37.jpg'
-    else:
-        url37 = "https://2img.net/h/telegra.ph" + r[0].get("src")
-        print(url37)
+    url37 = picurl
+    print(url37)
 else:
     print ('error')
     url37 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic37.jpg'
@@ -826,17 +528,8 @@ picurl = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictu
 pic38 = requests.get(picurl)
 if pic38.headers['Content-Type'] == 'image/jpeg':
     print ('图下38')   
-    with open('aomen/pic38.jpg', 'wb') as f:
-        f.write(pic38.content)
-    files = {'files': open('aomen/pic38.jpg', 'rb')}
-    r = requests.post("https://telegra.ph/upload", files=files).json()
-    err = r[0].get("error")
-    if err:
-        print(f"Failed to upload. Reason: {err}")
-        url38 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic38.jpg'
-    else:
-        url38 = "https://2img.net/h/telegra.ph" + r[0].get("src")
-        print(url38)
+    url38 = picurl
+    print(url38)
 else:
     print ('error')
     url38 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic38.jpg'

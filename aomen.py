@@ -31,7 +31,7 @@ if pic01.headers['Content-Type'] == 'image/jpeg':
     print ('图下01')
     with open('aomen/pic01.jpg', 'wb') as f:
         f.write(pic01.content)
-    url01 = picurl
+    url01 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic01.jpg'
     print(url01)
 else:
     print ('error')
@@ -44,7 +44,7 @@ if pic02.headers['Content-Type'] == 'image/jpeg':
     print ('图下02')
     with open('aomen/pic02.jpg', 'wb') as f:
         f.write(pic02.content)
-    url02 = picurl
+    url02 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic02.jpg'
     print(url02)
 else:
     print ('error')
@@ -57,7 +57,7 @@ if pic03.headers['Content-Type'] == 'image/jpeg':
     print ('图下03')
     with open('aomen/pic03.jpg', 'wb') as f:
         f.write(pic03.content)    
-    url03 = picurl
+    url03 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic03.jpg'
     print(url03)
 else:
     print ('error')
@@ -70,7 +70,7 @@ if pic04.headers['Content-Type'] == 'image/jpeg':
     print ('图下04')    
     with open('aomen/pic04.jpg', 'wb') as f:
         f.write(pic04.content)
-    url04 = picurl
+    url04 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic04.jpg'
     print(url04)
 else:
     print ('error')
@@ -82,7 +82,7 @@ if pic05.headers['Content-Type'] == 'image/jpeg':
     print ('图下05')    
     with open('aomen/pic05.jpg', 'wb') as f:
         f.write(pic05.content)
-    url05 = f"https://www.353583.com/tutu/faf{qishu}.jpg"
+    url05 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic05.jpg'
     print(url05)
 else:
     print ('error')
@@ -94,7 +94,7 @@ if pic06.headers['Content-Type'] == 'image/jpeg':
     print ('图下06')    
     with open('aomen/pic06.jpg', 'wb') as f:
         f.write(pic06.content)    
-    url06 = f"https://www.353583.com/tutu/fgmc{qishu}.jpg"
+    url06 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic06.jpg'
     print(url06)
 else:
     print ('error')
@@ -106,7 +106,7 @@ if pic07.headers['Content-Type'] == 'image/jpeg':
     print ('图下07')    
     with open('aomen/pic07.jpg', 'wb') as f:
         f.write(pic07.content)    
-    url07 = f"https://www.353583.com/tutu/6i12m{qishu}.jpg"
+    url07 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic07.jpg'
     print(url07)
 else:
     print ('error')
@@ -118,7 +118,7 @@ if pic08.headers['Content-Type'] == 'image/jpeg':
     print ('图下08')    
     with open('aomen/pic08.jpg', 'wb') as f:
         f.write(pic08.content)    
-    url08 = f"https://www.353583.com/tutu/gd{qishu}.jpg"
+    url08 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic08.jpg'
     print(url08)
 else:
     print ('error')
@@ -130,7 +130,7 @@ if pic09.headers['Content-Type'] == 'image/jpeg':
     print ('图下09')    
     with open('aomen/pic09.jpg', 'wb') as f:
         f.write(pic09.content)    
-    url09 = f"https://www.353583.com/tutu/lhwt{qishu}.jpg"
+    url09 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic09.jpg'
     print(url09)
 else:
     print ('error')
@@ -142,7 +142,7 @@ if pic10.headers['Content-Type'] == 'image/jpeg':
     print ('图下10')    
     with open('aomen/pic10.jpg', 'wb') as f:
         f.write(pic10.content)    
-    url10 = f"https://www.353583.com/tutu/ugyf{qishu}.jpg"
+    url10 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic10.jpg'
     print(url10)
 else:
     print ('error')
@@ -155,7 +155,7 @@ if pic11.headers['Content-Type'] == 'image/jpeg':
     print ('图下11')    
     with open('aomen/pic11.jpg', 'wb') as f:
         f.write(pic11.content)     
-    url11 = picurl
+    url11 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic11.jpg'
     print(url11)
 else:
     print ('error')
@@ -167,7 +167,7 @@ if pic12.headers['Content-Type'] == 'image/jpeg':
     print ('图下12')  
     with open('aomen/pic12.jpg', 'wb') as f:
         f.write(pic12.content)     
-    url12 = f"https://49629a.com/img/amhg{qishu}.jpg"
+    url12 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic12.jpg'
     print(url12)
 else:
     print ('error')
@@ -179,7 +179,7 @@ if pic13.headers['Content-Type'] == 'image/jpeg':
     print ('图下13')
     with open('aomen/pic13.jpg', 'wb') as f:
         f.write(pic13.content)     
-    url13 = f"https://49629a.com/img/zbxyb{qishu}.jpg"
+    url13 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic13.jpg'
     print(url13)
 else:
     print ('error')
@@ -191,7 +191,7 @@ if pic14.headers['Content-Type'] == 'image/jpeg':
     print ('图下14')
     with open('aomen/pic14.jpg', 'wb') as f:
         f.write(pic14.content)     
-    url14 = f"https://49629a.com/img/nm4x8m{qishu}.jpg"
+    url14 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic14.jpg'
     print(url14)
 else:
     print ('error')
@@ -203,7 +203,7 @@ if pic15.headers['Content-Type'] == 'image/jpeg':
     print ('图下15')
     with open('aomen/pic15.jpg', 'wb') as f:
         f.write(pic15.content)     
-    url15 = f"https://123186a.com/gsbtu/baoma{qishu}.jpg"
+    url15 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic15.jpg'
     print(url15)
 else:
     print ('error')
@@ -215,7 +215,7 @@ if pic16.headers['Content-Type'] == 'image/jpeg':
     print ('图下16')
     with open('aomen/pic16.jpg', 'wb') as f:
         f.write(pic16.content)     
-    url16 = f"https://123186a.com/gsbtu/hdjr{qishu}.jpg"
+    url16 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic16.jpg'
     print(url16)
 else:
     print ('error')
@@ -290,7 +290,7 @@ if pic19.headers['Content-Type'] == 'image/jpeg':
     print ('图下19')
     with open('aomen/pic19.jpg', 'wb') as f:
         f.write(pic19.content)     
-    url19 = picurl
+    url19 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic19.jpg'
     print(url19)
 else:
     print ('error')
@@ -353,12 +353,12 @@ if pic21.headers['Content-Type'] == 'image/jpeg':
     with open('aomen/pic21.jpg', 'wb') as f:
         f.write(pic21.content)
 
-    url21 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic20.jpg'
+    url21 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic21.jpg'
 
       
 else:
     print ('error')
-    url21 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic20.jpg'
+    url21 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic21.jpg'
     
 #获取黄大仙发财符 https://49152c.com/#/picture/28247
 picurl = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictureTypeId=28247').json()['data']['largePictureUrl']
@@ -367,7 +367,7 @@ if pic22.headers['Content-Type'] == 'image/jpeg':
     print ('图下22')
     with open('aomen/pic22.jpg', 'wb') as f:
         f.write(pic22.content)     
-    url22 = picurl
+    url22 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic22.jpg'
     print(url22)
 else:
     print ('error')
@@ -380,7 +380,7 @@ if pic23.headers['Content-Type'] == 'image/jpeg':
     print ('图下23')
     with open('aomen/pic23.jpg', 'wb') as f:
         f.write(pic23.content)      
-    url23 = picurl
+    url23 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic23.jpg'
     print(url23)
 else:
     print ('error')
@@ -393,7 +393,7 @@ if pic24.headers['Content-Type'] == 'image/jpeg':
     print ('图下24')
     with open('aomen/pic24.jpg', 'wb') as f:
         f.write(pic24.content)      
-    url24 = picurl
+    url24 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic24.jpg'
     print(url24)
 else:
     print ('error')
@@ -406,7 +406,7 @@ if pic25.headers['Content-Type'] == 'image/jpeg':
     print ('图下25')
     with open('aomen/pic25.jpg', 'wb') as f:
         f.write(pic25.content)      
-    url25= picurl
+    url25= 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic25.jpg'
     print(url25)
 else:
     print ('error')
@@ -418,7 +418,7 @@ if pic26.headers['Content-Type'] == 'image/jpeg':
     print ('图下26')
     with open('aomen/pic26.jpg', 'wb') as f:
         f.write(pic26.content)      
-    url26= f"https://49629a.com/img/jl3x{qishu}.jpg"
+    url26= 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic26.jpg'
     print(url26)
 else:
     print ('error')
@@ -430,7 +430,7 @@ if pic27.headers['Content-Type'] == 'image/jpeg':
     print ('图下27')
     with open('aomen/pic27.jpg', 'wb') as f:
         f.write(pic27.content)      
-    url27 = f"https://www.353583.com/tutu/ujcc{qishu}.jpg"
+    url27 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic27.jpg'
     print(url27)
 else:
     print ('error')
@@ -442,7 +442,7 @@ if pic28.headers['Content-Type'] == 'image/jpeg':
     print ('图下28')
     with open('aomen/pic28.jpg', 'wb') as f:
         f.write(pic28.content)      
-    url28 = f"https://www.29761a.com/img/djpt{qishu}.jpg"
+    url28 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic28.jpg'
     print(url28)
 else:
     print ('error')
@@ -454,7 +454,7 @@ if pic29.headers['Content-Type'] == 'image/jpeg':
     print ('图下29')
     with open('aomen/pic29.jpg', 'wb') as f:
         f.write(pic29.content)  
-    url29= f"https://49629a.com/img/1xzt{qishu}.jpg"
+    url29= 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic29.jpg'
     print(url29)
 else:
     print ('error')
@@ -467,7 +467,7 @@ if pic30.headers['Content-Type'] == 'image/jpeg':
     print ('图下30')
     with open('aomen/pic30.jpg', 'wb') as f:
         f.write(pic30.content)      
-    url30= picurl
+    url30= 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic30.jpg'
     print(url30)
 else:
     print ('error')
@@ -480,7 +480,7 @@ if pic31.headers['Content-Type'] == 'image/jpeg':
     print ('图下31')
     with open('aomen/pic31.jpg', 'wb') as f:
         f.write(pic31.content)       
-    url31 = picurl
+    url31 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic31.jpg'
     print(url31)
 else:
     print ('error')
@@ -493,7 +493,7 @@ if pic32.headers['Content-Type'] == 'image/jpeg':
     print ('图下32')
     with open('aomen/pic32.jpg', 'wb') as f:
         f.write(pic32.content)       
-    url32 = picurl
+    url32 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic32.jpg'
     print(url32)
 else:
     print ('error')
@@ -506,7 +506,7 @@ if pic33.headers['Content-Type'] == 'image/jpeg':
     print ('图下33')
     with open('aomen/pic33.jpg', 'wb') as f:
         f.write(pic33.content)       
-    url33 = picurl
+    url33 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic33.jpg'
     print(url33)
 else:
     print ('error')
@@ -519,7 +519,7 @@ if pic34.headers['Content-Type'] == 'image/jpeg':
     print ('图下34')
     with open('aomen/pic34.jpg', 'wb') as f:
         f.write(pic34.content)       
-    url34 = picurl
+    url34 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic34.jpg'
     print(url34)
 else:
     print ('error')
@@ -532,7 +532,7 @@ if pic35.headers['Content-Type'] == 'image/jpeg':
     print ('图下35')
     with open('aomen/pic35.jpg', 'wb') as f:
         f.write(pic35.content)       
-    url35 = picurl
+    url35 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic35.jpg'
     print(url35)
 else:
     print ('error')
@@ -546,7 +546,7 @@ if pic36.headers['Content-Type'] == 'image/jpeg':
     print ('图下36')
     with open('aomen/pic36.jpg', 'wb') as f:
         f.write(pic36.content)       
-    url36 = picurl
+    url36 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic36.jpg'
     print(url36)
 else:
     print ('error')
@@ -559,7 +559,7 @@ if pic37.headers['Content-Type'] == 'image/jpeg':
     print ('图下37')
     with open('aomen/pic37.jpg', 'wb') as f:
         f.write(pic37.content)       
-    url37 = picurl
+    url37 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic37.jpg'
     print(url37)
 else:
     print ('error')
@@ -572,7 +572,7 @@ if pic38.headers['Content-Type'] == 'image/jpeg':
     print ('图下38')
     with open('aomen/pic38.jpg', 'wb') as f:
         f.write(pic38.content)       
-    url38 = picurl
+    url38 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic38.jpg'
     print(url38)
 else:
     print ('error')

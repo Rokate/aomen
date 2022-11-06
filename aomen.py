@@ -28,7 +28,9 @@ else:
 picurl = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictureTypeId=28854').json()['data']['largePictureUrl']
 pic01 = requests.get(picurl)
 if pic01.headers['Content-Type'] == 'image/jpeg':
-    print ('图下01')    
+    print ('图下01')
+    with open('aomen/pic01.jpg', 'wb') as f:
+        f.write(pic01.content)
     url01 = picurl
     print(url01)
 else:
@@ -39,7 +41,9 @@ else:
 picurl = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictureTypeId=10870').json()['data']['largePictureUrl']
 pic02 = requests.get(picurl)
 if pic02.headers['Content-Type'] == 'image/jpeg':
-    print ('图下02')   
+    print ('图下02')
+    with open('aomen/pic02.jpg', 'wb') as f:
+        f.write(pic02.content)
     url02 = picurl
     print(url02)
 else:
@@ -50,7 +54,9 @@ else:
 picurl = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictureTypeId=209232').json()['data']['largePictureUrl']
 pic03 = requests.get(picurl)
 if pic03.headers['Content-Type'] == 'image/jpeg':
-    print ('图下03')    
+    print ('图下03')
+    with open('aomen/pic03.jpg', 'wb') as f:
+        f.write(pic03.content)    
     url03 = picurl
     print(url03)
 else:
@@ -62,6 +68,8 @@ picurl = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictu
 pic04 = requests.get(picurl)
 if pic04.headers['Content-Type'] == 'image/jpeg':
     print ('图下04')    
+    with open('aomen/pic04.jpg', 'wb') as f:
+        f.write(pic04.content)
     url04 = picurl
     print(url04)
 else:
@@ -72,6 +80,8 @@ else:
 pic05 = requests.get(f"https://www.353583.com/tutu/faf{qishu}.jpg")
 if pic05.headers['Content-Type'] == 'image/jpeg':
     print ('图下05')    
+    with open('aomen/pic05.jpg', 'wb') as f:
+        f.write(pic05.content)
     url05 = f"https://www.353583.com/tutu/faf{qishu}.jpg"
     print(url05)
 else:
@@ -82,6 +92,8 @@ else:
 pic06 = requests.get(f"https://www.353583.com/tutu/fgmc{qishu}.jpg")
 if pic06.headers['Content-Type'] == 'image/jpeg':
     print ('图下06')    
+    with open('aomen/pic06.jpg', 'wb') as f:
+        f.write(pic06.content)    
     url06 = f"https://www.353583.com/tutu/fgmc{qishu}.jpg"
     print(url06)
 else:
@@ -92,6 +104,8 @@ else:
 pic07 = requests.get(f"https://www.353583.com/tutu/6i12m{qishu}.jpg")
 if pic07.headers['Content-Type'] == 'image/jpeg':
     print ('图下07')    
+    with open('aomen/pic07.jpg', 'wb') as f:
+        f.write(pic07.content)    
     url07 = f"https://www.353583.com/tutu/6i12m{qishu}.jpg"
     print(url07)
 else:
@@ -102,6 +116,8 @@ else:
 pic08 = requests.get(f"https://www.353583.com/tutu/gd{qishu}.jpg")
 if pic08.headers['Content-Type'] == 'image/jpeg':
     print ('图下08')    
+    with open('aomen/pic08.jpg', 'wb') as f:
+        f.write(pic08.content)    
     url08 = f"https://www.353583.com/tutu/gd{qishu}.jpg"
     print(url08)
 else:
@@ -112,6 +128,8 @@ else:
 pic09 = requests.get(f"https://www.353583.com/tutu/lhwt{qishu}.jpg")
 if pic09.headers['Content-Type'] == 'image/jpeg':
     print ('图下09')    
+    with open('aomen/pic09.jpg', 'wb') as f:
+        f.write(pic09.content)    
     url09 = f"https://www.353583.com/tutu/lhwt{qishu}.jpg"
     print(url09)
 else:
@@ -122,6 +140,8 @@ else:
 pic10 = requests.get(f"https://www.353583.com/tutu/ugyf{qishu}.jpg")
 if pic10.headers['Content-Type'] == 'image/jpeg':
     print ('图下10')    
+    with open('aomen/pic10.jpg', 'wb') as f:
+        f.write(pic10.content)    
     url10 = f"https://www.353583.com/tutu/ugyf{qishu}.jpg"
     print(url10)
 else:
@@ -133,6 +153,8 @@ picurl = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictu
 pic11 = requests.get(picurl)
 if pic11.headers['Content-Type'] == 'image/jpeg':
     print ('图下11')    
+    with open('aomen/pic11.jpg', 'wb') as f:
+        f.write(pic11.content)     
     url11 = picurl
     print(url11)
 else:
@@ -142,7 +164,9 @@ else:
 #获取澳门精准四肖12码 https://49629a.com/
 pic12 = requests.get(f"https://49629a.com/img/amhg{qishu}.jpg")
 if pic12.headers['Content-Type'] == 'image/jpeg':
-    print ('图下12')    
+    print ('图下12')  
+    with open('aomen/pic12.jpg', 'wb') as f:
+        f.write(pic12.content)     
     url12 = f"https://49629a.com/img/amhg{qishu}.jpg"
     print(url12)
 else:
@@ -152,7 +176,9 @@ else:
 #获取西游家野 三肖中特 https://49629a.com/
 pic13 = requests.get(f"https://49629a.com/img/zbxyb{qishu}.jpg")
 if pic13.headers['Content-Type'] == 'image/jpeg':
-    print ('图下13')    
+    print ('图下13')
+    with open('aomen/pic13.jpg', 'wb') as f:
+        f.write(pic13.content)     
     url13 = f"https://49629a.com/img/zbxyb{qishu}.jpg"
     print(url13)
 else:
@@ -162,7 +188,9 @@ else:
 #获取澳门内幕 四肖四码 https://49629a.com/
 pic14 = requests.get(f"https://49629a.com/img/nm4x8m{qishu}.jpg")
 if pic14.headers['Content-Type'] == 'image/jpeg':  
-    print ('图下14')  
+    print ('图下14')
+    with open('aomen/pic14.jpg', 'wb') as f:
+        f.write(pic14.content)     
     url14 = f"https://49629a.com/img/nm4x8m{qishu}.jpg"
     print(url14)
 else:
@@ -172,7 +200,9 @@ else:
 #获取三肖六码 https://123186.com
 pic15 = requests.get(f"https://123186a.com/gsbtu/baoma{qishu}.jpg")
 if pic15.headers['Content-Type'] == 'image/jpeg':
-    print ('图下15')    
+    print ('图下15')
+    with open('aomen/pic15.jpg', 'wb') as f:
+        f.write(pic15.content)     
     url15 = f"https://123186a.com/gsbtu/baoma{qishu}.jpg"
     print(url15)
 else:
@@ -182,7 +212,9 @@ else:
 #获取皇道吉日 https://123186.com
 pic16 = requests.get(f"https://123186a.com/gsbtu/hdjr{qishu}.jpg")
 if pic16.headers['Content-Type'] == 'image/jpeg':
-    print ('图下16')    
+    print ('图下16')
+    with open('aomen/pic16.jpg', 'wb') as f:
+        f.write(pic16.content)     
     url16 = f"https://123186a.com/gsbtu/hdjr{qishu}.jpg"
     print(url16)
 else:
@@ -211,15 +243,9 @@ if pic17.headers['Content-Type'] == 'image/jpeg':
     print ('图下17')    
     with open('aomen/pic17.jpg', 'wb') as f:
         f.write(pic17.content)
-    files = {'files': open('aomen/pic17.jpg', 'rb')}
-    r = requests.post("https://telegra.ph/upload", files=files).json()
-    err = r[0].get("error")
-    if err:
-        print(f"Failed to upload. Reason: {err}")
-        url17 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic17.jpg'
-    else:
-        url17 = "https://2img.net/h/telegra.ph" + r[0].get("src")
-        print(url17)
+
+    url17 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic17.jpg'
+
 else:
     print ('error')
     url17 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic17.jpg'
@@ -248,15 +274,9 @@ if pic18.headers['Content-Type'] == 'image/jpeg':
     print ('图下18')
     with open('aomen/pic18.jpg', 'wb') as f:
         f.write(pic18.content)
-    files = {'files': open('aomen/pic18.jpg', 'rb')}
-    r = requests.post("https://telegra.ph/upload", files=files).json()
-    err = r[0].get("error")
-    if err:
-        print(f"Failed to upload. Reason: {err}")
-        url18 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic18.jpg'
-    else:
-        url18 = "https://2img.net/h/telegra.ph" + r[0].get("src")
-        print(url18)
+
+    url18 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic18.jpg'
+
 else:
     print ('error')
     url18 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic18.jpg'
@@ -267,7 +287,9 @@ else:
 picurl = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictureTypeId=316981').json()['data']['largePictureUrl']
 pic19 = requests.get(picurl)
 if pic19.headers['Content-Type'] == 'image/jpeg':
-    print ('图下19')    
+    print ('图下19')
+    with open('aomen/pic19.jpg', 'wb') as f:
+        f.write(pic19.content)     
     url19 = picurl
     print(url19)
 else:
@@ -298,15 +320,9 @@ if pic20.headers['Content-Type'] == 'image/jpeg':
     print ('图下20')    
     with open('aomen/pic20.jpg', 'wb') as f:
         f.write(pic20.content)
-    files = {'files': open('aomen/pic20.jpg', 'rb')}
-    r = requests.post("https://telegra.ph/upload", files=files).json()
-    err = r[0].get("error")
-    if err:
-        print(f"Failed to upload. Reason: {err}")
-        url20 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic20.jpg'
-    else:
-        url20 = "https://2img.net/h/telegra.ph" + r[0].get("src")
-        print(url20)
+
+    url20 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic20.jpg'
+
       
 else:
     print ('error')
@@ -336,15 +352,9 @@ if pic21.headers['Content-Type'] == 'image/jpeg':
     print ('图下21')    
     with open('aomen/pic21.jpg', 'wb') as f:
         f.write(pic21.content)
-    files = {'files': open('aomen/pic21.jpg', 'rb')}
-    r = requests.post("https://telegra.ph/upload", files=files).json()
-    err = r[0].get("error")
-    if err:
-        print(f"Failed to upload. Reason: {err}")
-        url21 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic20.jpg'
-    else:
-        url21 = "https://2img.net/h/telegra.ph" + r[0].get("src")
-        print(url21)
+
+    url21 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic20.jpg'
+
       
 else:
     print ('error')
@@ -354,7 +364,9 @@ else:
 picurl = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictureTypeId=28247').json()['data']['largePictureUrl']
 pic22 = requests.get(picurl)
 if pic22.headers['Content-Type'] == 'image/jpeg':
-    print ('图下22')    
+    print ('图下22')
+    with open('aomen/pic22.jpg', 'wb') as f:
+        f.write(pic22.content)     
     url22 = picurl
     print(url22)
 else:
@@ -365,7 +377,9 @@ else:
 picurl = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictureTypeId=209347').json()['data']['largePictureUrl']
 pic23 = requests.get(picurl)
 if pic23.headers['Content-Type'] == 'image/jpeg':
-    print ('图下23')    
+    print ('图下23')
+    with open('aomen/pic23.jpg', 'wb') as f:
+        f.write(pic23.content)      
     url23 = picurl
     print(url23)
 else:
@@ -376,7 +390,9 @@ else:
 picurl = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictureTypeId=209351').json()['data']['largePictureUrl']
 pic24 = requests.get(picurl)
 if pic24.headers['Content-Type'] == 'image/jpeg':
-    print ('图下24')    
+    print ('图下24')
+    with open('aomen/pic24.jpg', 'wb') as f:
+        f.write(pic24.content)      
     url24 = picurl
     print(url24)
 else:
@@ -387,7 +403,9 @@ else:
 picurl = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictureTypeId=28096').json()['data']['largePictureUrl']
 pic25 = requests.get(picurl)
 if pic25.headers['Content-Type'] == 'image/jpeg':
-    print ('图下25')    
+    print ('图下25')
+    with open('aomen/pic25.jpg', 'wb') as f:
+        f.write(pic25.content)      
     url25= picurl
     print(url25)
 else:
@@ -397,7 +415,9 @@ else:
 #获取金龙三肖 https://49629a.com/img/jl3x273.jpg
 pic26 = requests.get(f"https://49629a.com/img/jl3x{qishu}.jpg")
 if pic26.headers['Content-Type'] == 'image/jpeg':
-    print ('图下26')    
+    print ('图下26')
+    with open('aomen/pic26.jpg', 'wb') as f:
+        f.write(pic26.content)      
     url26= f"https://49629a.com/img/jl3x{qishu}.jpg"
     print(url26)
 else:
@@ -407,7 +427,9 @@ else:
 #获取发财单双 https://www.353583.com/
 pic27 = requests.get(f"https://www.353583.com/tutu/ujcc{qishu}.jpg")
 if pic27.headers['Content-Type'] == 'image/jpeg':
-    print ('图下27')    
+    print ('图下27')
+    with open('aomen/pic27.jpg', 'wb') as f:
+        f.write(pic27.content)      
     url27 = f"https://www.353583.com/tutu/ujcc{qishu}.jpg"
     print(url27)
 else:
@@ -417,7 +439,9 @@ else:
 #获取独家平特 https://www.29761a.com/img/djpt273.jpg
 pic28 = requests.get(f"https://www.29761a.com/img/djpt{qishu}.jpg")
 if pic28.headers['Content-Type'] == 'image/jpeg':
-    print ('图下28')    
+    print ('图下28')
+    with open('aomen/pic28.jpg', 'wb') as f:
+        f.write(pic28.content)      
     url28 = f"https://www.29761a.com/img/djpt{qishu}.jpg"
     print(url28)
 else:
@@ -427,7 +451,9 @@ else:
 #获取单双主三肖 https://49629a.com/img/1xzt273.jpg
 pic29 = requests.get(f"https://49629a.com/img/1xzt{qishu}.jpg")
 if pic29.headers['Content-Type'] == 'image/jpeg':
-    print ('图下29')    
+    print ('图下29')
+    with open('aomen/pic29.jpg', 'wb') as f:
+        f.write(pic29.content)  
     url29= f"https://49629a.com/img/1xzt{qishu}.jpg"
     print(url29)
 else:
@@ -438,7 +464,9 @@ else:
 picurl = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictureTypeId=28111').json()['data']['largePictureUrl']
 pic30 = requests.get(picurl)
 if pic30.headers['Content-Type'] == 'image/jpeg':
-    print ('图下30')    
+    print ('图下30')
+    with open('aomen/pic30.jpg', 'wb') as f:
+        f.write(pic30.content)      
     url30= picurl
     print(url30)
 else:
@@ -449,7 +477,9 @@ else:
 picurl = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictureTypeId=10344').json()['data']['largePictureUrl']
 pic31 = requests.get(picurl)
 if pic31.headers['Content-Type'] == 'image/jpeg':
-    print ('图下31')   
+    print ('图下31')
+    with open('aomen/pic31.jpg', 'wb') as f:
+        f.write(pic31.content)       
     url31 = picurl
     print(url31)
 else:
@@ -460,7 +490,9 @@ else:
 picurl = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictureTypeId=10346').json()['data']['largePictureUrl']
 pic32 = requests.get(picurl)
 if pic32.headers['Content-Type'] == 'image/jpeg':
-    print ('图下32')   
+    print ('图下32')
+    with open('aomen/pic32.jpg', 'wb') as f:
+        f.write(pic32.content)       
     url32 = picurl
     print(url32)
 else:
@@ -471,7 +503,9 @@ else:
 picurl = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictureTypeId=10348').json()['data']['largePictureUrl']
 pic33 = requests.get(picurl)
 if pic33.headers['Content-Type'] == 'image/jpeg':
-    print ('图下33')   
+    print ('图下33')
+    with open('aomen/pic33.jpg', 'wb') as f:
+        f.write(pic33.content)       
     url33 = picurl
     print(url33)
 else:
@@ -482,7 +516,9 @@ else:
 picurl = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictureTypeId=10350').json()['data']['largePictureUrl']
 pic34 = requests.get(picurl)
 if pic34.headers['Content-Type'] == 'image/jpeg':
-    print ('图下34')   
+    print ('图下34')
+    with open('aomen/pic34.jpg', 'wb') as f:
+        f.write(pic34.content)       
     url34 = picurl
     print(url34)
 else:
@@ -493,7 +529,9 @@ else:
 picurl = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictureTypeId=10815').json()['data']['largePictureUrl']
 pic35 = requests.get(picurl)
 if pic35.headers['Content-Type'] == 'image/jpeg':
-    print ('图下35')   
+    print ('图下35')
+    with open('aomen/pic35.jpg', 'wb') as f:
+        f.write(pic35.content)       
     url35 = picurl
     print(url35)
 else:
@@ -505,7 +543,9 @@ picurl = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictu
 pic36 = requests.get(picurl)
 if pic36.headers['Content-Type'] == 'image/jpeg':
     xg = str(int(xg)+1)
-    print ('图下36')   
+    print ('图下36')
+    with open('aomen/pic36.jpg', 'wb') as f:
+        f.write(pic36.content)       
     url36 = picurl
     print(url36)
 else:
@@ -516,7 +556,9 @@ else:
 picurl = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictureTypeId=416992').json()['data']['largePictureUrl']
 pic37 = requests.get(picurl)
 if pic37.headers['Content-Type'] == 'image/jpeg':
-    print ('图下37')   
+    print ('图下37')
+    with open('aomen/pic37.jpg', 'wb') as f:
+        f.write(pic37.content)       
     url37 = picurl
     print(url37)
 else:
@@ -527,7 +569,9 @@ else:
 picurl = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictureTypeId=28628').json()['data']['largePictureUrl']
 pic38 = requests.get(picurl)
 if pic38.headers['Content-Type'] == 'image/jpeg':
-    print ('图下38')   
+    print ('图下38')
+    with open('aomen/pic38.jpg', 'wb') as f:
+        f.write(pic38.content)       
     url38 = picurl
     print(url38)
 else:

@@ -297,7 +297,7 @@ else:
     url19 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic19.jpg'
     
 #获取香港马经
-"""
+
 page = requests.get("https://xgtutu.003123.club/yjjy/index.php?c=16")
 page.encoding = "utf-8"
 
@@ -361,7 +361,7 @@ else:
     print ('error')
     url21 = 'https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/pic21.jpg'
     
-"""
+
     
 #获取黄大仙发财符 https://49152c.com/#/picture/28247
 picurl = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictureTypeId=28247').json()['data']['largePictureUrl']

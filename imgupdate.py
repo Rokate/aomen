@@ -13,7 +13,7 @@ async def parseurl(url,sem):
         async with aiohttp.ClientSession() as session:
             async with session.get(url) as response:
                 picurl = (await response.json())['data']['largePictureUrl']
-                print(picurl)
+                
                 imagelist.append(picurl)
     
 async def downloadpic(url,picname,sem):

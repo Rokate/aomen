@@ -25,7 +25,7 @@ jobs:
     - name: Timezone
       run: sudo timedatectl set-timezone 'Asia/Shanghai'
     - name: 'aomen'
-      run: python aomen.py
+      run: python imgupdate.py
       
     - name: Push to Repo
       uses: dmnemec/copy_file_to_another_repo_action@v1.1.0

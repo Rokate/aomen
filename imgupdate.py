@@ -13,7 +13,7 @@ async def parseurl(url,sem):
         async with aiohttp.ClientSession() as session:
             async with session.get(url) as response:
                 picurl = (await response.json())['data']['largePictureUrl']
-                print(picurl)
+                #print(picurl)
                 imagelist.append(picurl)
     
 async def downloadpic(url,picname,sem):
@@ -26,8 +26,7 @@ async def downloadpic(url,picname,sem):
             try:
                 async with aiohttp.ClientSession(connector=aiohttp.TCPConnector(ssl=False)) as session:
                     async with session.get(url, timeout=10) as resp:
-                        picname = url.split("/")[-1]
-                        #print(resp.headers['Content-Type'])
+                        picname = url.split("/")[-1]                        
                         if resp.headers['Content-Type'] == 'image/jpeg':
                             async with aiofiles.open(f'aomen/{picname}', 'wb') as f:
                                 while True:
@@ -198,7 +197,7 @@ if __name__ == '__main__':
 
     start = time.time()
     os.mkdir('aomen')
-    qishu = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictureTypeId=28854').json()['data']['period']
+    qishu = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictureTypeId=316981').json()['data']['period']
     imagelist = [
         f"https://www.353583.com/tutu/faf{qishu}.jpg",
         f"https://www.353583.com/tutu/fgmc{qishu}.jpg",
@@ -261,7 +260,7 @@ if __name__ == '__main__':
     title = '<!DOCTYPE html><html><head><meta charset="utf-8"><title>澳门图片</title></head><body><style type="text/css">.imgblock img{width:50%;height:500px;flost:left;}</style><h1 align="center" style="color:red ; font-size:50px">澳门图片</h1><iframe src="https://zhibo.aoyoushop.com:777/" height="180" width=100% title="澳门开奖"></iframe>'
     html = title+htmlconten
     print('写入html')
-    with open('aomen/html1.txt','w') as f:
+    with open('aomen/html.txt','w') as f:
         f.write(html)
 
     end = time.time()

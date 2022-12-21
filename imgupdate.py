@@ -13,25 +13,34 @@ async def parseurl(url,sem):
         async with aiohttp.ClientSession() as session:
             async with session.get(url) as response:
                 picurl = (await response.json())['data']['largePictureUrl']
-                
+                print(picurl)
                 imagelist.append(picurl)
     
 async def downloadpic(url,picname,sem):
     async with sem:
+        
+        
         max_retries = 3
         attempt = 0
         while True:
             try:
                 async with aiohttp.ClientSession(connector=aiohttp.TCPConnector(ssl=False)) as session:
                     async with session.get(url, timeout=10) as resp:
-                        async with aiofiles.open(f'aomen/piclist{picname}.jpg', 'wb') as f:
-                            while True:
-                                chunk = await resp.content.read(1024)
-                                if not chunk:
-                                    break
-                                await f.write(chunk)        
-                        break
-            except (asyncio.TimeoutError):
+                        picname = url.split("/")[-1]
+                        #print(resp.headers['Content-Type'])
+                        if resp.headers['Content-Type'] == 'image/jpeg':
+                            async with aiofiles.open(f'aomen/{picname}', 'wb') as f:
+                                while True:
+                                    chunk = await resp.content.read(1024)
+                                    if not chunk:
+                                        break
+                                    await f.write(chunk) 
+                                print(f'{url}<==>{picname}下载成功')           
+                            break
+                        else:
+                           print (f'{picname}下载失败')
+                           break     
+            except aiohttp.ClientError:
                 if attempt < max_retries:
                     print("{}times:{}".format(picname, attempt))
                     attempt += 1
@@ -150,12 +159,20 @@ async def downloadxgsh():
             else:
                 raise
 
-
+async def downloadxggp():
+    picurl = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictureTypeId=10870').json()['data']['largePictureUrl']
+    pic = requests.get(picurl)
+    if pic.headers['Content-Type'] == 'image/jpeg':
+        with open('aomen/xgn1.jpg', 'wb') as f:
+            f.write(pic.content)
+    else:
+        print ('xggp下载失败')
+        
 
 async def get49tkimgurl():
     
     task_list = []
-    sem = asyncio.Semaphore(4)
+    sem = asyncio.Semaphore(3)
     for url in tk49_imgurl:
         task = asyncio.create_task(parseurl(url,sem))
         task_list.append(task)
@@ -166,9 +183,10 @@ async def get49tkimgurl():
 async def downloadimglist():
     
     task_list = []
-    sem = asyncio.Semaphore(6)
+    sem = asyncio.Semaphore(4)
     i = 0
     for url in imagelist:
+        
         task = asyncio.create_task(downloadpic(url,str(i),sem))
         i = i+1
         task_list.append(task)
@@ -211,7 +229,6 @@ if __name__ == '__main__':
         'https://49152c.com/unite49/h5/picture/detail/latest?pictureTypeId=28111',
         'https://49152c.com/unite49/h5/picture/detail/latest?pictureTypeId=416992',
         'https://49152c.com/unite49/h5/picture/detail/latest?pictureTypeId=28628',
-        'https://49152c.com/unite49/h5/picture/detail/latest?pictureTypeId=10870',
         'https://49152c.com/unite49/h5/picture/detail/latest?pictureTypeId=10344',
         'https://49152c.com/unite49/h5/picture/detail/latest?pictureTypeId=10346',
         'https://49152c.com/unite49/h5/picture/detail/latest?pictureTypeId=10348',
@@ -235,10 +252,17 @@ if __name__ == '__main__':
     loop.run_until_complete(downloadamimg(amimg))
     '''
     print("获取香港图片")
+    asyncio.run(downloadxggp())
     asyncio.run(downloadxgmj())
     asyncio.run(downloadxgsh())
     print("获取澳门图片")
     asyncio.run(downloadamimg(amimg))
+    htmlconten = f'<div align="center" class="imgblock"><a href="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/n1.jpg" target="_blank"><img src="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/n1.jpg" / ><a href="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/rv.jpg" target="_blank"><img src="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/rv.jpg" / ></div><div align="center" class="imgblock"><a href="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/dcxj.jpg" target="_blank"><img src="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/dcxj.jpg" / ><a href="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/sszm.jpg" target="_blank"><img src="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/sszm.jpg" / ></div><div align="center" class="imgblock"><a href="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/faf{qishu}.jpg" target="_blank"><img src="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/faf{qishu}.jpg" / ><a href="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/fgmc{qishu}.jpg" target="_blank"><img src="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/fgmc{qishu}.jpg" / ></div><div align="center" class="imgblock"><a href="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/6i12m{qishu}.jpg" target="_blank"><img src="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/6i12m{qishu}.jpg" / ><a href="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/gd{qishu}.jpg" target="_blank"><img src="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/gd{qishu}.jpg" / ></div><div align="center" class="imgblock"><a href="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/lhwt{qishu}.jpg" target="_blank"><img src="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/lhwt{qishu}.jpg" / ><a href="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/ugyf{qishu}.jpg" target="_blank"><img src="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/ugyf{qishu}.jpg" / ></div><div align="center" class="imgblock"><a href="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/ktzsx.jpg" target="_blank"><img src="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/ktzsx.jpg" / ><a href="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/amhg{qishu}.jpg" target="_blank"><img src="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/amhg{qishu}.jpg" / ></div><div align="center" class="imgblock"><a href="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/zbxyb{qishu}.jpg" target="_blank"><img src="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/zbxyb{qishu}.jpg" / ><a href="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/nm4x8m{qishu}.jpg" target="_blank"><img src="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/nm4x8m{qishu}.jpg" / ></div><div align="center" class="imgblock"><a href="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/baoma{qishu}.jpg" target="_blank"><img src="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/baoma{qishu}.jpg" / ><a href="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/hdjr{qishu}.jpg" target="_blank"><img src="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/hdjr{qishu}.jpg" / ></div><div align="center" class="imgblock"><a href="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/ampic0.jpg" target="_blank"><img src="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/ampic0.jpg" / ><a href="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/ampic1.jpg" target="_blank"><img src="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/ampic1.jpg" / ></div><div align="center" class="imgblock"><a href="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/tt38.jpg" target="_blank"><img src="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/tt38.jpg" / ><a href="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/amffh.jpg" target="_blank"><img src="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/amffh.jpg" / ></div><div align="center" class="imgblock"><a href="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/amfql.jpg" target="_blank"><img src="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/amfql.jpg" / ><a href="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/twqp.jpg" target="_blank"><img src="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/twqp.jpg" / ></div><div align="center" class="imgblock"><a href="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/jl3x{qishu}.jpg" target="_blank"><img src="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/jl3x{qishu}.jpg" / ><a href="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/ujcc{qishu}.jpg" target="_blank"><img src="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/ujcc{qishu}.jpg" / ></div><div align="center" class="imgblock"><a href="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/djpt{qishu}.jpg" target="_blank"><img src="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/djpt{qishu}.jpg" / ><a href="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/ujcc{qishu}.jpg" target="_blank"><img src="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/ujcc{qishu}.jpg" / ><div align="center" class="imgblock"><a href="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/lhlxsm.jpg" target="_blank"><img src="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/lhlxsm.jpg" / ><a href="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/b8.jpg" target="_blank"><img src="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/b8.jpg" / ></div><div align="center" class="imgblock"><a href="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/mfpy.jpg" target="_blank"><img src="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/mfpy.jpg" / ></div><iframe src="https://zhibo.chong0123.com:777/" height="150" width=100% title="香港开奖"></iframe><div align="center" class="imgblock"><a href="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/xgn1.jpg" target="_blank"><img src="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/xgn1.jpg" /></div><div align="center" class="imgblock"><a href="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/xgmj.jpg" target="_blank"><img src="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/xgmj.jpg" / ><a href="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/xgsh.jpg" target="_blank"><img src="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/xgsh.jpg" / ></div><div align="center" class="imgblock"><a href="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/b002.jpg" target="_blank"><img src="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/b002.jpg" / ><a href="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/b004.jpg" target="_blank"><img src="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/b004.jpg" / ></div><div align="center" class="imgblock"><a href="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/b006.jpg" target="_blank"><img src="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/b006.jpg" / ><a href="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/b008.jpg" target="_blank"><img src="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/b008.jpg" / ></div><div align="center" class="imgblock"><a href="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/j11.jpg" target="_blank"><img src="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/j11.jpg" / ><a href="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/qlb.jpg" target="_blank"><img src="https://ghproxy.com/https://raw.githubusercontent.com/Rokate/imagebackup/main/aomen/qlb.jpg" / ></div></body></html>'
+    title = '<!DOCTYPE html><html><head><meta charset="utf-8"><title>澳门图片</title></head><body><style type="text/css">.imgblock img{width:50%;height:500px;flost:left;}</style><h1 align="center" style="color:red ; font-size:50px">澳门图片</h1><iframe src="https://zhibo.aoyoushop.com:777/" height="180" width=100% title="澳门开奖"></iframe>'
+    html = title+htmlconten
+    print('写入html')
+    with open('aomen/html1.txt','w') as f:
+        f.write(html)
 
     end = time.time()
     print(f'一共耗时：{end - start}')

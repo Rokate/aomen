@@ -6,9 +6,7 @@ import time
 import re
 import os 
 
-
 async def parseurl(url,sem):
-    
     async with sem:
         async with aiohttp.ClientSession() as session:
             async with session.get(url) as response:
@@ -16,10 +14,8 @@ async def parseurl(url,sem):
                 #print(picurl)
                 imagelist.append(picurl)
     
-async def downloadpic(url,picname,sem):
-    async with sem:
-        
-        
+async def downloadpic(url,sem):
+    async with sem:        
         max_retries = 3
         attempt = 0
         while True:
@@ -87,7 +83,6 @@ async def downloadamimg(imagelist):
                     raise           
                         
 async def downloadxgmj():
-
     max_retries = 3
     attempt = 0
     while True:
@@ -123,7 +118,6 @@ async def downloadxgmj():
                 raise
 
 async def downloadxgsh():
-
     max_retries = 3
     attempt = 0
     while True:
@@ -167,9 +161,7 @@ async def downloadxggp():
     else:
         print ('xggp下载失败')
         
-
-async def get49tkimgurl():
-    
+async def get49tkimgurl():    
     task_list = []
     sem = asyncio.Semaphore(3)
     for url in tk49_imgurl:
@@ -177,24 +169,15 @@ async def get49tkimgurl():
         task_list.append(task)
     await asyncio.gather(*task_list)
 
-    
-
-async def downloadimglist():
-    
+async def downloadimglist():    
     task_list = []
     sem = asyncio.Semaphore(4)
-    i = 0
-    for url in imagelist:
-        
-        task = asyncio.create_task(downloadpic(url,str(i),sem))
-        i = i+1
+    for url in imagelist:        
+        task = asyncio.create_task(downloadpic(url,sem))
         task_list.append(task)
     await asyncio.gather(*task_list)
 
-    
-
 if __name__ == '__main__':
-
     start = time.time()
     os.mkdir('aomen')
     qishu = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictureTypeId=28854').json()['data']['period']
@@ -235,11 +218,9 @@ if __name__ == '__main__':
         'https://49152c.com/unite49/h5/picture/detail/latest?pictureTypeId=10815',
         'https://49152c.com/unite49/h5/picture/detail/latest?pictureTypeId=15819',]
 
-    
     amimg = [
         'https://amtutu.003123.club/yjjy/index.php?c=5',
         'https://amtutu.003123.club/yjjy/index.php?c=2'
-
     ]
     print("获取49图片")
     asyncio.run(get49tkimgurl())

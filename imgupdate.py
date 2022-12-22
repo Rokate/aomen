@@ -35,9 +35,9 @@ async def downloadpic(url,sem):
                         else:
                            print (f'{picname}下载失败')
                            break     
-            except asyncio.TimeoutError:
+            except aiohttp.ClientConnectorError as e:
                 if attempt < max_retries:
-                    print("{}times:{}".format(picname, attempt))
+                    print("{}times:{}".format(picname, attempt),str(e))
                     attempt += 1
                 else:
                     raise
@@ -75,9 +75,9 @@ async def downloadamimg(imagelist):
                                     break
                                 await f.write(chunk)        
                         break
-            except aiohttp.ClientError:
+            except aiohttp.ClientConnectorError as e:
                 if attempt < max_retries:
-                    print("{}times:{}".format(picname, attempt))
+                    print("{}times:{}".format(picname, attempt),str(e))
                     attempt += 1
                 else:
                     raise           
@@ -110,9 +110,9 @@ async def downloadxgmj():
                                 break
                             await f.write(chunk)        
                     break
-        except aiohttp.ClientError:
+        except aiohttp.ClientConnectorError as e:
             if attempt < max_retries:
-                print("{}times:{}".format(picname, attempt))
+                print("{}times:{}".format(picname, attempt),str(e))
                 attempt += 1
             else:
                 raise
@@ -145,9 +145,9 @@ async def downloadxgsh():
                                 break
                             await f.write(chunk)        
                     break
-        except aiohttp.ClientError:
+        except aiohttp.ClientConnectorError as e:
             if attempt < max_retries:
-                print("{}times:{}".format(picname, attempt))
+                print("{}times:{}".format(picname, attempt),str(e))
                 attempt += 1
             else:
                 raise

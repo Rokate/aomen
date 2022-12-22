@@ -39,7 +39,7 @@ async def downloadpic(url,picname,sem):
                         else:
                            print (f'{picname}下载失败')
                            break     
-            except aiohttp.ClientError:
+            except asyncio.TimeoutError:
                 if attempt < max_retries:
                     print("{}times:{}".format(picname, attempt))
                     attempt += 1

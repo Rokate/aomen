@@ -77,7 +77,7 @@ async def downloadamimg(imagelist):
                         break
             except aiohttp.ClientConnectorError as e:
                 if attempt < max_retries:
-                    print("{}times:{}".format(picname, attempt),str(e))
+                    print("Retry times:{}".format(attempt),str(e))
                     attempt += 1
                 else:
                     raise           
@@ -112,7 +112,7 @@ async def downloadxgmj():
                     break
         except aiohttp.ClientConnectorError as e:
             if attempt < max_retries:
-                print("{}times:{}".format(picname, attempt),str(e))
+                print("Retry times:{}".format(attempt),str(e))
                 attempt += 1
             else:
                 raise
@@ -147,7 +147,7 @@ async def downloadxgsh():
                     break
         except aiohttp.ClientConnectorError as e:
             if attempt < max_retries:
-                print("{}times:{}".format(picname, attempt),str(e))
+                print("Retry times:{}".format(attempt),str(e))
                 attempt += 1
             else:
                 raise

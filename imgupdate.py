@@ -180,7 +180,7 @@ async def downloadimglist():
 if __name__ == '__main__':
     start = time.time()
     os.mkdir('aomen')
-    qishu = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictureTypeId=28854').json()['data']['period']
+    qishu = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictureTypeId=209232').json()['data']['period']
     imagelist = [
         f"https://www.353583.com/tutu/faf{qishu}.jpg",
         f"https://www.353583.com/tutu/fgmc{qishu}.jpg",

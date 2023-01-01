@@ -181,6 +181,7 @@ if __name__ == '__main__':
     start = time.time()
     os.mkdir('aomen')
     qishu = requests.get('https://49152c.com/unite49/h5/picture/detail/latest?pictureTypeId=28854').json()['data']['period']
+    qishu = qishu.rjust(3,'0')
     imagelist = [
         f"https://www.353583.com/tutu/faf{qishu}.jpg",
         f"https://www.353583.com/tutu/fgmc{qishu}.jpg",

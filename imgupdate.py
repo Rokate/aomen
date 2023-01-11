@@ -22,7 +22,7 @@ async def downloadpic(url,sem):
         while True:
             try:
                 async with aiohttp.ClientSession(connector=aiohttp.TCPConnector(ssl=False)) as session:
-                    async with session.get(url, timeout=10) as resp:                                                
+                    async with session.get(url) as resp:                                                
                         if resp.headers['Content-Type'] == 'image/jpeg':
                             async with aiofiles.open(f'aomen/{picname}', 'wb') as f:
                                 while True:

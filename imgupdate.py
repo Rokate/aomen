@@ -37,7 +37,7 @@ async def downloadpic(url,sem):
                            break     
             except Exception as e:
                 if attempt < max_retries:
-                    print("{}times:{}".format(picname, attempt),str(e))
+                    print("{} Retry times:{}".format(picname, attempt),str(e))
                     attempt += 1
                 else:
                     raise
@@ -171,7 +171,7 @@ async def get49tkimgurl():
 
 async def downloadimglist():    
     task_list = []
-    sem = asyncio.Semaphore(4)
+    sem = asyncio.Semaphore(6)
     for url in imagelist:        
         task = asyncio.create_task(downloadpic(url,sem))
         task_list.append(task)
